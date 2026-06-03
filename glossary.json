@@ -1,0 +1,406 @@
+{
+  "metadata": {
+    "title": "AI Glossary — Lab L01",
+    "student": "Joseph Clay",
+    "major": "B.A.T in AI and Robotics",
+    "course": "ITAI 1370 — History of AI",
+    "professor": "Professor Anna Devarakonda",
+    "crn": "14049",
+    "institution": "Houston Community College",
+    "term": "Summer 2026",
+    "team": "TuringCollective",
+    "description": "A comprehensive reference glossary of 26 key Artificial Intelligence terms, one for each letter of the alphabet. This living document grows throughout the semester as new concepts are introduced in each module."
+  },
+  "terms": [
+    {
+      "id": "A",
+      "letter": "A",
+      "term": "Algorithm",
+      "definition": "An algorithm is a set of step-by-step instructions that a computer follows to complete a task or solve a problem. In artificial intelligence, algorithms are the core logic that allows machines to process data, recognize patterns, and arrive at decisions without human involvement at each step.",
+      "example": "When you search on Google, an algorithm instantly ranks billions of web pages by relevance to surface the most useful results in milliseconds.",
+      "module": "L01",
+      "source": {
+        "author": "Russell, S., & Norvig, P.",
+        "year": "2021",
+        "title": "Artificial intelligence: A modern approach (4th ed.)",
+        "publisher": "Pearson",
+        "url": ""
+      }
+    },
+    {
+      "id": "B",
+      "letter": "B",
+      "term": "Bias (AI Bias)",
+      "definition": "Bias in AI refers to systematic errors in a machine learning model that produce unfair or skewed outcomes, typically because the training data reflected existing human prejudices or inequalities. These errors can cause AI systems to treat certain groups differently without any intentional discrimination being programmed.",
+      "example": "A hiring algorithm trained mostly on male resumes may rank female applicants lower — not because they are less qualified, but because the training data was unbalanced.",
+      "module": "L01",
+      "source": {
+        "author": "Buolamwini, J., & Gebru, T.",
+        "year": "2018",
+        "title": "Gender shades: Intersectional accuracy disparities in commercial gender classification",
+        "publisher": "Proceedings of Machine Learning Research, 81, 77–91",
+        "url": ""
+      }
+    },
+    {
+      "id": "C",
+      "letter": "C",
+      "term": "Computer Vision",
+      "definition": "Computer vision is a field of AI that enables machines to interpret and understand visual information from the world, such as images and video. It allows computers to identify objects, faces, text, and scenes the same way human eyes and brain work together.",
+      "example": "Tesla's Autopilot uses computer vision to detect lane markings, traffic lights, pedestrians, and other vehicles in real time while driving.",
+      "module": "L01",
+      "source": {
+        "author": "IBM",
+        "year": "2023",
+        "title": "What is computer vision?",
+        "publisher": "IBM Think",
+        "url": "https://www.ibm.com/topics/computer-vision"
+      }
+    },
+    {
+      "id": "D",
+      "letter": "D",
+      "term": "Deep Learning",
+      "definition": "Deep learning is a subset of machine learning that uses multi-layered neural networks to learn complex patterns from large amounts of data. The 'deep' refers to the many layers of the network, each of which learns increasingly abstract features from the input.",
+      "example": "Spotify's music recommendation engine uses deep learning to analyze audio features and listening patterns to suggest songs you are likely to enjoy.",
+      "module": "L01",
+      "source": {
+        "author": "IBM",
+        "year": "2023",
+        "title": "What is deep learning?",
+        "publisher": "IBM Think",
+        "url": "https://www.ibm.com/topics/deep-learning"
+      }
+    },
+    {
+      "id": "E",
+      "letter": "E",
+      "term": "Expert System",
+      "definition": "An expert system is an AI program that mimics the decision-making ability of a human specialist by encoding their knowledge as a set of if-then rules. It was one of the first dominant forms of AI and was widely used in medicine, finance, and engineering.",
+      "example": "MYCIN, developed at Stanford in the 1970s, was an expert system that diagnosed bacterial infections and recommended antibiotics with accuracy comparable to human physicians.",
+      "module": "L01",
+      "source": {
+        "author": "Russell, S., & Norvig, P.",
+        "year": "2021",
+        "title": "Artificial intelligence: A modern approach (4th ed.)",
+        "publisher": "Pearson",
+        "url": ""
+      }
+    },
+    {
+      "id": "F",
+      "letter": "F",
+      "term": "Fuzzy Logic",
+      "definition": "Fuzzy logic is a form of reasoning that handles uncertainty by allowing values between true and false — not just 0 or 1, but any value in between. It enables AI systems to reason about imprecise or vague information the way humans do in everyday language.",
+      "example": "HVAC smart thermostats use fuzzy logic to interpret 'slightly warm' or 'a little cold' and make gradual adjustments rather than simply turning heating on or off.",
+      "module": "L01",
+      "source": {
+        "author": "Britannica",
+        "year": "2023",
+        "title": "Fuzzy logic",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/technology/fuzzy-logic"
+      }
+    },
+    {
+      "id": "G",
+      "letter": "G",
+      "term": "Generative AI",
+      "definition": "Generative AI refers to AI systems that can create new content — text, images, audio, video, or code — rather than simply analyzing or classifying existing content. These models learn patterns from training data and use them to produce original outputs.",
+      "example": "ChatGPT and Claude are generative AI systems that produce original written responses; DALL-E generates images from text descriptions.",
+      "module": "L01",
+      "source": {
+        "author": "IBM",
+        "year": "2023",
+        "title": "What is generative AI?",
+        "publisher": "IBM Think",
+        "url": "https://www.ibm.com/topics/generative-ai"
+      }
+    },
+    {
+      "id": "H",
+      "letter": "H",
+      "term": "Heuristic",
+      "definition": "A heuristic is a practical problem-solving technique that finds a good-enough solution quickly when finding the perfect solution would take too long. In AI, heuristics guide search algorithms and decision-making when exhaustive evaluation is computationally impossible.",
+      "example": "GPS navigation apps use heuristic search algorithms to find a fast route to your destination without calculating every possible road combination.",
+      "module": "L01",
+      "source": {
+        "author": "Russell, S., & Norvig, P.",
+        "year": "2021",
+        "title": "Artificial intelligence: A modern approach (4th ed.)",
+        "publisher": "Pearson",
+        "url": ""
+      }
+    },
+    {
+      "id": "I",
+      "letter": "I",
+      "term": "Inference Engine",
+      "definition": "An inference engine is the component of an AI system that applies logical rules to a knowledge base to derive new conclusions or make decisions. It is the reasoning core of expert systems, interpreting stored knowledge and matching it against current input.",
+      "example": "A medical diagnosis AI uses an inference engine to match a patient's symptoms against a database of conditions and recommend a diagnosis.",
+      "module": "L01",
+      "source": {
+        "author": "IBM",
+        "year": "2023",
+        "title": "What is an inference engine?",
+        "publisher": "IBM Think",
+        "url": "https://www.ibm.com/topics/inference-engine"
+      }
+    },
+    {
+      "id": "J",
+      "letter": "J",
+      "term": "Jupyter Notebook",
+      "definition": "Jupyter Notebook is an open-source web application that allows developers and data scientists to create documents that combine live code, visualizations, and explanatory text in one place. It is widely used in AI research and education for experimenting with machine learning models.",
+      "example": "Data scientists at companies like Netflix use Jupyter Notebooks to prototype recommendation algorithms, visualize results, and share their findings with teammates.",
+      "module": "L01",
+      "source": {
+        "author": "Project Jupyter",
+        "year": "2023",
+        "title": "Jupyter Notebook documentation",
+        "publisher": "Project Jupyter",
+        "url": "https://jupyter.org"
+      }
+    },
+    {
+      "id": "K",
+      "letter": "K",
+      "term": "K-Nearest Neighbor (KNN)",
+      "definition": "K-Nearest Neighbor is a machine learning algorithm that classifies a data point by looking at the K closest examples in the training dataset and assigning the most common label among them. It is simple, intuitive, and effective for classification and regression tasks.",
+      "example": "A spam filter can use KNN to classify a new email as spam or not spam by comparing it to the K most similar emails it has already seen.",
+      "module": "L01",
+      "source": {
+        "author": "IBM",
+        "year": "2023",
+        "title": "What is the k-nearest neighbors algorithm?",
+        "publisher": "IBM Think",
+        "url": "https://www.ibm.com/topics/knn"
+      }
+    },
+    {
+      "id": "L",
+      "letter": "L",
+      "term": "Large Language Model (LLM)",
+      "definition": "A large language model is a type of AI trained on vast amounts of text data that can understand and generate human language. LLMs use transformer architecture to predict and produce coherent, contextually relevant text across a wide range of tasks.",
+      "example": "GPT-4 and Claude are large language models that can write essays, summarize documents, answer complex questions, and generate code.",
+      "module": "L01",
+      "source": {
+        "author": "IBM",
+        "year": "2023",
+        "title": "What are large language models?",
+        "publisher": "IBM Think",
+        "url": "https://www.ibm.com/topics/large-language-models"
+      }
+    },
+    {
+      "id": "M",
+      "letter": "M",
+      "term": "Machine Learning",
+      "definition": "Machine learning is a branch of AI in which systems improve their performance on tasks by learning from data rather than following explicitly programmed rules. The more data the system is exposed to, the better it becomes at making predictions or decisions.",
+      "example": "Credit card companies use machine learning to detect fraudulent transactions by learning the patterns of normal spending and flagging unusual activity in real time.",
+      "module": "L01",
+      "source": {
+        "author": "IBM",
+        "year": "2023",
+        "title": "What is machine learning?",
+        "publisher": "IBM Think",
+        "url": "https://www.ibm.com/topics/machine-learning"
+      }
+    },
+    {
+      "id": "N",
+      "letter": "N",
+      "term": "Natural Language Processing (NLP)",
+      "definition": "Natural Language Processing is the field of AI concerned with enabling computers to understand, interpret, and generate human language. NLP bridges the gap between human communication and machine computation through techniques like tokenization, sentiment analysis, and language modeling.",
+      "example": "Amazon Alexa uses NLP to interpret spoken commands like 'play jazz music' and translate them into the correct action.",
+      "module": "L01",
+      "source": {
+        "author": "IBM",
+        "year": "2023",
+        "title": "What is natural language processing?",
+        "publisher": "IBM Think",
+        "url": "https://www.ibm.com/topics/natural-language-processing"
+      }
+    },
+    {
+      "id": "O",
+      "letter": "O",
+      "term": "Overfitting",
+      "definition": "Overfitting occurs when a machine learning model learns the training data too precisely, including its noise and random fluctuations, causing it to perform poorly on new, unseen data. It is one of the most common problems in AI model development.",
+      "example": "A model trained to detect cats using only photos of orange tabby cats may fail to recognize black cats — it learned the training examples, not the concept.",
+      "module": "L01",
+      "source": {
+        "author": "IBM",
+        "year": "2023",
+        "title": "What is overfitting?",
+        "publisher": "IBM Think",
+        "url": "https://www.ibm.com/topics/overfitting"
+      }
+    },
+    {
+      "id": "P",
+      "letter": "P",
+      "term": "Perceptron",
+      "definition": "A perceptron is the simplest type of artificial neural network, consisting of a single layer that takes multiple inputs, applies weights to them, and produces a binary output. Invented by Frank Rosenblatt in 1958, it is the foundational building block of modern neural networks.",
+      "example": "A perceptron can be trained to classify emails as spam or not spam by weighting features like keyword frequency and sender reputation.",
+      "module": "L01",
+      "source": {
+        "author": "Russell, S., & Norvig, P.",
+        "year": "2021",
+        "title": "Artificial intelligence: A modern approach (4th ed.)",
+        "publisher": "Pearson",
+        "url": ""
+      }
+    },
+    {
+      "id": "Q",
+      "letter": "Q",
+      "term": "Q-Learning",
+      "definition": "Q-Learning is a reinforcement learning algorithm that teaches an AI agent the best action to take in a given state by assigning quality scores (Q-values) to state-action pairs and updating them based on received rewards. The agent learns through trial and error without needing a model of the environment.",
+      "example": "DeepMind used Q-Learning as a component of the system that taught an AI to play classic Atari video games at superhuman levels with no prior knowledge of the rules.",
+      "module": "L01",
+      "source": {
+        "author": "DeepAI",
+        "year": "2023",
+        "title": "Q-Learning definition",
+        "publisher": "DeepAI",
+        "url": "https://deepai.org/machine-learning-glossary-and-terms/q-learning"
+      }
+    },
+    {
+      "id": "R",
+      "letter": "R",
+      "term": "Reinforcement Learning",
+      "definition": "Reinforcement learning is a type of machine learning where an agent learns to make decisions by taking actions in an environment and receiving rewards or penalties based on the outcomes. Over time the agent learns the strategy that maximizes cumulative reward.",
+      "example": "Google DeepMind's AlphaGo used reinforcement learning to master the game of Go by playing millions of games against itself and improving based on wins and losses.",
+      "module": "L01",
+      "source": {
+        "author": "IBM",
+        "year": "2023",
+        "title": "What is reinforcement learning?",
+        "publisher": "IBM Think",
+        "url": "https://www.ibm.com/topics/reinforcement-learning"
+      }
+    },
+    {
+      "id": "S",
+      "letter": "S",
+      "term": "Supervised Learning",
+      "definition": "Supervised learning is a machine learning approach where a model is trained on labeled data — examples where both the input and the correct output are provided. The model learns to map inputs to outputs by minimizing the error between its predictions and the known answers.",
+      "example": "A spam filter is trained using supervised learning: thousands of emails labeled 'spam' or 'not spam' teach the model to classify new emails accurately.",
+      "module": "L01",
+      "source": {
+        "author": "IBM",
+        "year": "2023",
+        "title": "What is supervised learning?",
+        "publisher": "IBM Think",
+        "url": "https://www.ibm.com/topics/supervised-learning"
+      }
+    },
+    {
+      "id": "T",
+      "letter": "T",
+      "term": "Transformer",
+      "definition": "A transformer is a deep learning architecture introduced in 2017 that uses a self-attention mechanism to weigh the relevance of every part of an input sequence against every other part simultaneously. It replaced older sequential models and became the foundation of all modern large language models.",
+      "example": "ChatGPT, Claude, and Google Gemini are all built on transformer architecture — it is what allows them to understand long, complex prompts and generate coherent responses.",
+      "module": "L01",
+      "source": {
+        "author": "Vaswani, A., et al.",
+        "year": "2017",
+        "title": "Attention is all you need",
+        "publisher": "Advances in Neural Information Processing Systems, 30",
+        "url": ""
+      }
+    },
+    {
+      "id": "U",
+      "letter": "U",
+      "term": "Unsupervised Learning",
+      "definition": "Unsupervised learning is a machine learning method where a model is given data without labels and must find hidden patterns or structure on its own. Without being told what to look for, the model discovers natural groupings, relationships, or anomalies in the data.",
+      "example": "Retailers use unsupervised learning to cluster customers into segments — budget shoppers, brand loyalists, seasonal buyers — without pre-defining those categories.",
+      "module": "L01",
+      "source": {
+        "author": "IBM",
+        "year": "2023",
+        "title": "What is unsupervised learning?",
+        "publisher": "IBM Think",
+        "url": "https://www.ibm.com/topics/unsupervised-learning"
+      }
+    },
+    {
+      "id": "V",
+      "letter": "V",
+      "term": "Vector",
+      "definition": "In AI, a vector is a list of numbers that represents data — such as a word, image, or document — in a mathematical space. Vectors allow AI models to measure similarity and relationships between pieces of information by calculating the distance between them.",
+      "example": "When you search for 'affordable sneakers' on Amazon, the system converts your query into a vector and finds products whose vectors are closest to it in meaning.",
+      "module": "L01",
+      "source": {
+        "author": "IBM",
+        "year": "2023",
+        "title": "What is vector search?",
+        "publisher": "IBM Think",
+        "url": "https://www.ibm.com/topics/vector-search"
+      }
+    },
+    {
+      "id": "W",
+      "letter": "W",
+      "term": "Weights (Neural Network)",
+      "definition": "In a neural network, weights are numerical parameters that determine how strongly one neuron influences another. During training, the network adjusts its weights through backpropagation to minimize prediction errors — learning is literally the process of finding the right weights.",
+      "example": "When a facial recognition model learns to identify a face, it is adjusting millions of weights until the patterns it extracts reliably match the correct identity.",
+      "module": "L01",
+      "source": {
+        "author": "IBM",
+        "year": "2023",
+        "title": "What is a neural network?",
+        "publisher": "IBM Think",
+        "url": "https://www.ibm.com/topics/neural-networks"
+      }
+    },
+    {
+      "id": "X",
+      "letter": "X",
+      "term": "XGBoost",
+      "definition": "XGBoost (Extreme Gradient Boosting) is a high-performance machine learning algorithm that builds an ensemble of decision trees sequentially, with each tree correcting the errors of the previous one. It is widely used in data science competitions and industry for its speed and accuracy.",
+      "example": "XGBoost has been used by teams winning Kaggle data science competitions and by financial institutions to build credit risk scoring models.",
+      "module": "L01",
+      "source": {
+        "author": "Chen, T., & Guestrin, C.",
+        "year": "2016",
+        "title": "XGBoost: A scalable tree boosting system",
+        "publisher": "Proceedings of the 22nd ACM SIGKDD International Conference",
+        "url": "https://dl.acm.org/doi/10.1145/2939672.2939785"
+      }
+    },
+    {
+      "id": "Y",
+      "letter": "Y",
+      "term": "YOLO (You Only Look Once)",
+      "definition": "YOLO is a real-time object detection algorithm that processes an entire image in a single pass through a neural network, simultaneously predicting what objects are present and where they are. Its speed makes it ideal for applications requiring instant visual recognition.",
+      "example": "Security camera systems use YOLO to detect and identify people, vehicles, or packages in real time without any processing delay.",
+      "module": "L01",
+      "source": {
+        "author": "Redmon, J., et al.",
+        "year": "2016",
+        "title": "You only look once: Unified, real-time object detection",
+        "publisher": "IEEE CVPR",
+        "url": "https://arxiv.org/abs/1506.02640"
+      }
+    },
+    {
+      "id": "Z",
+      "letter": "Z",
+      "term": "Zero-Shot Learning",
+      "definition": "Zero-shot learning is the ability of an AI model to correctly handle tasks or recognize categories it was never explicitly trained on, by leveraging knowledge it learned from related tasks. It demonstrates genuine generalization rather than simple memorization.",
+      "example": "A zero-shot model can classify a zebra image correctly even if it never saw a zebra during training — because it learned that zebras are 'horse-like animals with black and white stripes.'",
+      "module": "L01",
+      "source": {
+        "author": "IBM",
+        "year": "2023",
+        "title": "What is zero-shot learning?",
+        "publisher": "IBM Think",
+        "url": "https://www.ibm.com/topics/zero-shot-learning"
+      }
+    }
+  ]
+}
