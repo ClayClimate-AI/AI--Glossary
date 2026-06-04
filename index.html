@@ -68,11 +68,35 @@ nav{
   display:flex;align-items:center;gap:0.75rem;text-decoration:none;flex-shrink:0;
 }
 .nav-logo{
-  width:34px;height:34px;border-radius:8px;
-  background:linear-gradient(135deg,var(--accent2),var(--accent));
+  width:38px;height:38px;
   display:flex;align-items:center;justify-content:center;
-  font-family:var(--syne);font-size:0.8rem;font-weight:800;color:#fff;
+  flex-shrink:0;
 }
+.nav-logo-svg{width:38px;height:38px;overflow:visible}
+@keyframes brainGlow{
+  0%,100%{filter:drop-shadow(0 0 2px #00d4ff88)}
+  50%{filter:drop-shadow(0 0 5px #00d4ff) drop-shadow(0 0 12px #00d4ff55)}
+}
+@keyframes nodePulse{
+  0%,100%{opacity:0.35}
+  50%{opacity:1}
+}
+@keyframes synapse{from{stroke-dashoffset:12}to{stroke-dashoffset:0}}
+.nav-logo-svg{animation:brainGlow 3s ease-in-out infinite}
+.brain-node{animation:nodePulse 2.6s ease-in-out infinite}
+.brain-node.bn2{animation-delay:.35s}
+.brain-node.bn3{animation-delay:.7s}
+.brain-node.bn4{animation-delay:1.05s}
+.brain-node.bn5{animation-delay:.18s;animation-duration:2s}
+.brain-node.bn6{animation-delay:.5s}
+.brain-node.bn7{animation-delay:.85s}
+.brain-node.bn8{animation-delay:1.2s}
+.brain-synapse{stroke-dasharray:3 3;animation:synapse 2s linear infinite}
+.brain-synapse.bs2{animation-delay:-.5s}
+.brain-synapse.bs3{animation-delay:-1s}
+.brain-synapse.bs4{animation-delay:-1.5s}
+.brain-synapse.bs5{animation-delay:-.25s}
+.brain-synapse.bs6{animation-delay:-.75s}
 .nav-title{font-family:var(--syne);font-size:0.9rem;font-weight:700;color:var(--text)}
 .nav-sub{font-family:var(--mono);font-size:0.65rem;color:var(--muted)}
 .nav-links{display:flex;gap:0.25rem;margin-left:auto}
@@ -172,6 +196,14 @@ nav{
 }
 .ab.has{border-color:var(--dim);color:var(--text)}
 .ab:hover,.ab.active{background:var(--accent);border-color:var(--accent);color:#000;font-weight:500}
+.ab-clear{
+  height:32px;padding:0 0.6rem;border-radius:6px;border:1px solid var(--border);
+  background:var(--surface);color:var(--muted);
+  font-family:var(--mono);font-size:0.65rem;cursor:pointer;
+  display:flex;align-items:center;gap:0.25rem;white-space:nowrap;
+  transition:all 0.2s;margin-left:0.4rem;
+}
+.ab-clear:hover{border-color:var(--accent);color:var(--accent)}
 
 /* GRID */
 .grid-wrap{max-width:1280px;margin:0 auto;padding:0 2rem 5rem}
@@ -235,6 +267,13 @@ nav{
   transition:all 0.2s;
 }
 .mcls:hover{border-color:var(--accent);color:var(--text)}
+.mback{
+  background:none;border:1px solid var(--border);color:var(--muted);
+  height:34px;padding:0 0.75rem;border-radius:7px;cursor:pointer;
+  font-family:var(--mono);font-size:0.68rem;white-space:nowrap;flex-shrink:0;
+  display:flex;align-items:center;gap:0.35rem;transition:all 0.2s;
+}
+.mback:hover{border-color:var(--accent);color:var(--accent)}
 .mbdy{padding:1.5rem}
 .ms{margin-bottom:1.5rem}
 .ms-l{font-family:var(--mono);font-size:0.62rem;color:var(--accent);text-transform:uppercase;letter-spacing:0.12em;margin-bottom:0.5rem}
@@ -427,7 +466,50 @@ footer p{font-family:var(--mono);font-size:0.68rem;color:var(--dim);letter-spaci
 <nav id="mainNav">
   <div class="nav-inner">
     <a class="nav-brand" href="#" onclick="showPage('glossary')">
-      <div class="nav-logo">TC</div>
+      <svg class="nav-logo-svg" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-label="TuringCollective neural logo">
+        <defs>
+          <filter id="bgf" x="-60%" y="-60%" width="220%" height="220%">
+            <feGaussianBlur stdDeviation="1.4" result="blur"/>
+            <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+        <!-- Brain outline -->
+        <path d="M20 5C28 5,35 9,35 17C35 25,30 29,26 31C24 32,22 33,20 33C18 33,16 32,14 31C10 29,5 25,5 17C5 9,12 5,20 5Z" fill="none" stroke="#00d4ff" stroke-width="1.4" filter="url(#bgf)"/>
+        <!-- Center sulcus -->
+        <path d="M20 6C19 13,21 22,20 33" fill="none" stroke="#00d4ff" stroke-width="0.7" opacity="0.45"/>
+        <!-- Left gyri -->
+        <path d="M9 14C12 11,16 13,14 17" fill="none" stroke="#00d4ff" stroke-width="0.65" opacity="0.35"/>
+        <path d="M7 22C10 19,14 21,12 25" fill="none" stroke="#00d4ff" stroke-width="0.65" opacity="0.35"/>
+        <!-- Right gyri -->
+        <path d="M31 14C28 11,24 13,26 17" fill="none" stroke="#00d4ff" stroke-width="0.65" opacity="0.35"/>
+        <path d="M33 22C30 19,26 21,28 25" fill="none" stroke="#00d4ff" stroke-width="0.65" opacity="0.35"/>
+        <!-- Neural synapses -->
+        <g stroke="#00d4ff" stroke-width="0.55" opacity="0.55">
+          <line class="brain-synapse"      x1="11" y1="13" x2="20" y2="11"/>
+          <line class="brain-synapse bs2"  x1="20" y1="11" x2="29" y2="13"/>
+          <line class="brain-synapse bs3"  x1="11" y1="13" x2="9"  y2="22"/>
+          <line class="brain-synapse bs4"  x1="29" y1="13" x2="31" y2="22"/>
+          <line class="brain-synapse bs5"  x1="9"  y1="22" x2="20" y2="22"/>
+          <line class="brain-synapse bs6"  x1="20" y1="22" x2="31" y2="22"/>
+          <line class="brain-synapse bs3"  x1="9"  y1="22" x2="14" y2="30"/>
+          <line class="brain-synapse bs4"  x1="31" y1="22" x2="26" y2="30"/>
+          <line class="brain-synapse bs2"  x1="11" y1="13" x2="20" y2="22"/>
+          <line class="brain-synapse"      x1="29" y1="13" x2="20" y2="22"/>
+          <line class="brain-synapse bs5"  x1="14" y1="30" x2="20" y2="22"/>
+          <line class="brain-synapse bs6"  x1="26" y1="30" x2="20" y2="22"/>
+        </g>
+        <!-- Neural nodes -->
+        <g fill="#00d4ff" filter="url(#bgf)">
+          <circle class="brain-node"      cx="11" cy="13" r="2"/>
+          <circle class="brain-node bn2"  cx="20" cy="11" r="2"/>
+          <circle class="brain-node bn3"  cx="29" cy="13" r="2"/>
+          <circle class="brain-node bn4"  cx="9"  cy="22" r="2"/>
+          <circle class="brain-node bn5"  cx="20" cy="22" r="2.6"/>
+          <circle class="brain-node bn6"  cx="31" cy="22" r="2"/>
+          <circle class="brain-node bn7"  cx="14" cy="30" r="2"/>
+          <circle class="brain-node bn8"  cx="26" cy="30" r="2"/>
+        </g>
+      </svg>
       <div>
         <div class="nav-title">TuringCollective</div>
         <div class="nav-sub">ITAI 1370 · Summer 2026</div>
@@ -622,15 +704,22 @@ footer p{font-family:var(--mono);font-size:0.68rem;color:var(--dim);letter-spaci
 
 <script>
 // ══════════════════════════════════
-// DATA
+// STATE — application-level variables shared across all render functions
 // ══════════════════════════════════
-let data = null;
-let activeLetter = null;
-let activeModule = 'all';
-let searchQ = '';
-let adminPW = 'TuringAdmin2026';
-let modules = ['L01'];
+let data = null;           // Full contents of glossary.json once loaded
+let activeLetter = null;   // Letter filter active in the alpha bar; null = show all
+let activeModule = 'all';  // Module filter active in the module bar; 'all' = show everything
+let searchQ = '';          // Live search string typed into the nav search box
+let adminPW = 'TuringAdmin2026'; // To change the admin password, update this string
+let modules = ['L01'];     // Array of unique module labels; rebuilt from data.terms on every load/change
 
+/**
+ * LOAD DATA
+ * Fetches glossary.json from the same directory and stores the result in `data`.
+ * Also extracts the list of unique module labels, then calls initAll() to render everything.
+ * This is the single entry point — all other functions depend on `data` being set.
+ * If you rename or move glossary.json, update the path in the fetch() call below.
+ */
 async function loadData() {
   try {
     const r = await fetch('./glossary.json');
@@ -645,11 +734,24 @@ async function loadData() {
 // ══════════════════════════════════
 // NAVIGATION
 // ══════════════════════════════════
+/**
+ * SHOW PAGE
+ * Switches the visible page between 'glossary', 'about', and 'admin'.
+ * Hides all .page divs, activates the target by id ("page-{name}"),
+ * and highlights the matching nav button ("nav-{name}").
+ * Also hides the search bar on pages that don't use it (only glossary does).
+ *
+ * To add a new page:
+ *   1. Add <div class="page" id="page-yourname"> in the HTML
+ *   2. Add a nav button with id="nav-yourname" and onclick="showPage('yourname')"
+ *   3. Add any special setup logic inside the if-block below
+ */
 function showPage(name) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
   document.getElementById('page-'+name).classList.add('active');
   document.getElementById('nav-'+name).classList.add('active');
+  // Search bar is only relevant on the glossary page
   document.getElementById('navSearchWrap').style.display = name === 'glossary' ? 'block' : 'none';
   if(name === 'admin') renderAdminPage();
   window.scrollTo(0,0);
@@ -658,6 +760,17 @@ function showPage(name) {
 // ══════════════════════════════════
 // INIT
 // ══════════════════════════════════
+/**
+ * INIT ALL
+ * Runs once after glossary.json loads successfully.
+ * Calls every render function to populate the page, then attaches the
+ * persistent event listeners that stay active for the life of the session:
+ *   - Search input → updates searchQ and re-renders the card grid
+ *   - Click on modal backdrop → closes the open modal
+ *   - Escape key → closes any open modal
+ *
+ * If you add a new render function, call it here so it runs on load.
+ */
 function initAll() {
   renderHero();
   renderStats();
@@ -675,6 +788,13 @@ function initAll() {
 // ══════════════════════════════════
 // HERO
 // ══════════════════════════════════
+/**
+ * RENDER HERO
+ * Fills the hero section at the top of the glossary page using fields from
+ * the `metadata` object in glossary.json. Also sets the browser tab title.
+ * To change what shows here, edit the metadata fields in glossary.json —
+ * no code change needed.
+ */
 function renderHero() {
   const m = data.metadata;
   document.title = m.title + ' | ' + m.student;
@@ -691,9 +811,20 @@ function renderHero() {
 // ══════════════════════════════════
 // STATS
 // ══════════════════════════════════
+/**
+ * RENDER STATS
+ * Builds the four-cell stat bar (Terms / Letters / Modules / Sources).
+ * All counts are computed live from data.terms — no manual updates needed.
+ * Sources are deduplicated by author+year so one source cited on multiple
+ * terms only counts once.
+ *
+ * To add a fifth stat cell: add another <div class="stat">...</div> to the
+ * innerHTML string below and add matching .stat CSS if needed.
+ */
 function renderStats() {
   const t = data.terms;
   const mods = [...new Set(t.map(x=>x.module))];
+  // Deduplicate sources by combining author + year as a unique key
   const srcs = new Set(t.map(x=>x.source.author+x.source.year)).size;
   document.getElementById('statsBar').innerHTML = `
     <div class="stat"><div class="stat-n">${t.length}</div><div class="stat-l">Terms</div></div>
@@ -706,13 +837,23 @@ function renderStats() {
 // ══════════════════════════════════
 // MODULE BAR
 // ══════════════════════════════════
+/**
+ * RENDER MODULE BAR
+ * Builds the pill-button row (All / L01 / L02 / …) above the term card grid.
+ * Buttons are generated dynamically from the `modules` array, which is rebuilt
+ * from data.terms any time a term is added, edited, or deleted.
+ * Clicking a button sets `activeModule` and triggers a grid re-render.
+ *
+ * New module buttons appear automatically — just set the `module` field
+ * on any term and the button shows up with no code change needed.
+ */
 function renderModuleBar() {
   const bar = document.getElementById('moduleBar');
   bar.innerHTML = '<span class="mod-label">Module:</span>';
   const allBtn = document.createElement('button');
   allBtn.className = 'mod-btn' + (activeModule==='all'?' active':'');
   allBtn.textContent = 'All';
-  allBtn.onclick = () => { activeModule='all'; renderModuleBar(); renderGrid(); };
+  allBtn.onclick = () => { activeModule='all'; activeLetter=null; renderModuleBar(); renderAlphaBar(); renderGrid(); };
   bar.appendChild(allBtn);
   modules.forEach(mod => {
     const btn = document.createElement('button');
@@ -726,6 +867,13 @@ function renderModuleBar() {
 // ══════════════════════════════════
 // ALPHA BAR
 // ══════════════════════════════════
+/**
+ * RENDER ALPHA BAR
+ * Builds the A–Z letter filter row. Letters that have at least one term
+ * get the `.has` class (brighter/white color) to signal they are clickable.
+ * Clicking a letter sets `activeLetter` and filters the grid to only that letter.
+ * Clicking the same active letter again clears the filter (toggle behavior).
+ */
 function renderAlphaBar() {
   const letters = data.terms.map(t=>t.letter);
   const bar = document.getElementById('alphaBar');
@@ -737,11 +885,29 @@ function renderAlphaBar() {
     btn.onclick = () => { activeLetter = activeLetter===l?null:l; renderAlphaBar(); renderGrid(); };
     bar.appendChild(btn);
   });
+  if (activeLetter) {
+    const clr = document.createElement('button');
+    clr.className = 'ab-clear';
+    clr.innerHTML = '✕ Clear';
+    clr.onclick = () => { activeLetter = null; renderAlphaBar(); renderGrid(); };
+    bar.appendChild(clr);
+  }
 }
 
 // ══════════════════════════════════
 // FILTER + GRID
 // ══════════════════════════════════
+/**
+ * GET FILTERED
+ * Returns a filtered, alphabetically sorted subset of data.terms.
+ * Three filters are applied simultaneously:
+ *   - activeModule: skipped when set to 'all'
+ *   - activeLetter: skipped when null
+ *   - searchQ: matches the search string against term name, definition, and example
+ * Called by renderGrid() every time any filter or the search text changes.
+ *
+ * To add a new searchable field (e.g. tags): add it to the `ms` condition below.
+ */
 function getFiltered() {
   return data.terms.filter(t => {
     const mm = activeModule==='all' || t.module===activeModule;
@@ -752,6 +918,21 @@ function getFiltered() {
   }).sort((a,b)=>a.letter.localeCompare(b.letter));
 }
 
+/**
+ * RENDER GRID
+ * Re-renders the entire term card grid using getFiltered().
+ * Shows a "no results" placeholder if the filtered set is empty.
+ * Each card gets a small staggered animation-delay for a cascading fade-in effect.
+ *
+ * To change what appears on a card: modify the template literal inside f.map() below.
+ * Card structure: .ch (header: letter, term name, module badge) |
+ *                 .cb (body: definition, example) |
+ *                 .cf (footer: author/year, View Full button)
+ * Matching CSS classes: .tcard .ch .cl .ct .cm .cb .cd .ex-l .ce .cf .cs .vb
+ *
+ * To add a new field to the card (e.g. an image), add the field to glossary.json
+ * terms and add a new element inside .cb here.
+ */
 function renderGrid() {
   const f = getFiltered();
   document.getElementById('rcount').textContent = `Showing ${f.length} of ${data.terms.length} terms`;
@@ -782,17 +963,40 @@ function renderGrid() {
 // ══════════════════════════════════
 // VIEW MODAL
 // ══════════════════════════════════
+/**
+ * BUILD CITE
+ * Formats a source object into an APA-style HTML citation string.
+ * Used in two places: the view modal (inline citation) and renderRefs() (reference list).
+ * URL is optional — only appended as a link when present.
+ *
+ * @param {object} s — source object: { author, year, title, publisher, url }
+ * @returns {string} HTML string with the formatted APA citation
+ */
 function buildCite(s) {
   let c = `${s.author} (${s.year}). <em>${s.title}</em>. ${s.publisher}.`;
   if(s.url) c += ` <a href="${s.url}" target="_blank" style="color:var(--accent)">${s.url}</a>`;
   return c;
 }
 
+/**
+ * OPEN VIEW MODAL
+ * Looks up a term by id in data.terms and renders the full-detail modal
+ * (large letter, term name, definition, real-world example, APA citation).
+ * The modal slides up via the .open class on #viewOverlay.
+ * Body scroll is locked while the modal is open.
+ *
+ * To add a new section to the modal (e.g. an image or tags): add a new
+ * <div class="ms">...</div> block inside .mbdy in the innerHTML below,
+ * and make sure the field exists in glossary.json.
+ *
+ * @param {string} id — unique term id (e.g. 'A' or 'N_1717200000000')
+ */
 function openViewModal(id) {
   const t = data.terms.find(x=>x.id===id);
   if(!t) return;
   document.getElementById('viewModal').innerHTML = `
     <div class="mhdr">
+      <button class="mback" onclick="closeViewModal()">← Back to Glossary</button>
       <div class="ml">${t.letter}</div>
       <div class="mtg"><div class="mt">${t.term}</div><div class="mm">Module: ${t.module} · ITAI 1370 · TuringCollective</div></div>
       <button class="mcls" onclick="closeViewModal()">✕</button>
@@ -804,15 +1008,25 @@ function openViewModal(id) {
     </div>
   `;
   document.getElementById('viewOverlay').classList.add('open');
-  document.body.style.overflow='hidden';
+  document.body.style.overflow='hidden'; // Prevent background scroll while modal is open
 }
+
+/** CLOSE VIEW MODAL — removes .open, restores page scroll. */
 function closeViewModal(){ document.getElementById('viewOverlay').classList.remove('open'); document.body.style.overflow=''; }
 
 // ══════════════════════════════════
 // REFERENCES
 // ══════════════════════════════════
+/**
+ * RENDER REFS
+ * Builds the APA References section at the bottom of the glossary page.
+ * Deduplicates sources by author+year (a source cited on multiple terms
+ * only appears once), then sorts the list alphabetically by author last name.
+ * Fully automatic — no changes needed here when you add new terms.
+ */
 function renderRefs() {
   const seen = new Map();
+  // First occurrence of each author+year wins; duplicates are skipped
   data.terms.forEach(t => { const k=t.source.author+t.source.year; if(!seen.has(k)) seen.set(k,t.source); });
   const sorted = [...seen.values()].sort((a,b)=>a.author.localeCompare(b.author));
   document.getElementById('refsList').innerHTML = sorted.map(s=>`<div class="ref-item">${buildCite(s)}</div>`).join('');
@@ -821,6 +1035,11 @@ function renderRefs() {
 // ══════════════════════════════════
 // FOOTERS
 // ══════════════════════════════════
+/**
+ * RENDER FOOTERS
+ * Writes the same credit line into all three page footers (glossary, about, admin).
+ * Text is assembled from glossary.json metadata fields.
+ */
 function renderFooters() {
   const m = data.metadata;
   const txt = `${m.student} · ${m.course} · ${m.team} · ${m.term}`;
@@ -830,6 +1049,13 @@ function renderFooters() {
 // ══════════════════════════════════
 // ADMIN — LOGIN
 // ══════════════════════════════════
+/**
+ * DO LOGIN
+ * Compares the entered password against the `adminPW` variable.
+ * Success: hides #loginScreen, shows #adminDash, runs renderAdminPage().
+ * Failure: shows the inline error message, clears the input field.
+ * To change the password: update the `adminPW` variable at the top of this script.
+ */
 function doLogin() {
   const pw = document.getElementById('pwInput').value;
   if(pw === adminPW) {
@@ -841,6 +1067,12 @@ function doLogin() {
     document.getElementById('pwInput').value='';
   }
 }
+
+/**
+ * DO LOGOUT
+ * Hides the admin dashboard and returns to the login screen.
+ * Clears the password field and dismisses any error message.
+ */
 function doLogout() {
   document.getElementById('loginScreen').style.display='block';
   document.getElementById('adminDash').style.display='none';
@@ -851,6 +1083,12 @@ function doLogout() {
 // ══════════════════════════════════
 // ADMIN — RENDER
 // ══════════════════════════════════
+/**
+ * RENDER ADMIN PAGE
+ * Orchestrates all four admin sub-renders. Called when navigating to the admin
+ * page and after any CRUD operation that modifies data.
+ * Guards against running before data is loaded.
+ */
 function renderAdminPage() {
   if(!data) return;
   renderAdminStats();
@@ -859,6 +1097,12 @@ function renderAdminPage() {
   renderAdminTable();
 }
 
+/**
+ * RENDER ADMIN STATS
+ * Fills the four stat cards at the top of the admin dashboard.
+ * "Letters Left" = 26 minus the total number of terms (tracks how many
+ * alphabet slots still need a term for Lab L01 completion).
+ */
 function renderAdminStats() {
   const t = data.terms;
   const mods = [...new Set(t.map(x=>x.module))];
@@ -870,6 +1114,11 @@ function renderAdminStats() {
   `;
 }
 
+/**
+ * RENDER ADMIN MODULE LIST
+ * Renders the read-only module tags with term counts inside the Module Manager panel.
+ * To add a module: use the text input below the list and click "+ Add Module" (addModule()).
+ */
 function renderAdminModuleList() {
   const mods = [...new Set(data.terms.map(t=>t.module))].sort();
   document.getElementById('adminModuleList').innerHTML = mods.map(m => {
@@ -878,12 +1127,26 @@ function renderAdminModuleList() {
   }).join('');
 }
 
+/**
+ * RENDER ADMIN MODULE FILTER
+ * Rebuilds the module dropdown in the admin table toolbar so it reflects
+ * the current set of modules. Called after any change that could add a new module.
+ */
 function renderAdminModuleFilter() {
   const sel = document.getElementById('adminModFilter');
   const mods = [...new Set(data.terms.map(t=>t.module))].sort();
   sel.innerHTML = '<option value="all">All Modules</option>' + mods.map(m=>`<option value="${m}">${m}</option>`).join('');
 }
 
+/**
+ * RENDER ADMIN TABLE
+ * Renders the filterable, searchable terms management table.
+ * Reads the search input (#adminSearch) and module dropdown (#adminModFilter) live.
+ * Each row has Edit (opens pre-filled edit modal) and Del (confirm + delete) buttons.
+ *
+ * To add a new column: add a <th> in the HTML table header (around line 596),
+ * then add the matching <td> in the template literal inside filtered.map() below.
+ */
 function renderAdminTable() {
   const q = document.getElementById('adminSearch').value.toLowerCase();
   const mf = document.getElementById('adminModFilter').value;
@@ -911,6 +1174,13 @@ function renderAdminTable() {
   `).join('');
 }
 
+/**
+ * ADD MODULE
+ * Reads the new-module input, uppercases the value, and registers it in the
+ * `modules` array if it isn't already there. This makes the label available in
+ * the module filter bar and the term form's module dropdown — no terms are
+ * created or modified. Clears the input after adding.
+ */
 function addModule() {
   const val = document.getElementById('newModInput').value.trim().toUpperCase();
   if(!val) return;
@@ -925,6 +1195,11 @@ function addModule() {
 // ══════════════════════════════════
 // ADMIN — ADD / EDIT MODAL
 // ══════════════════════════════════
+/**
+ * OPEN ADD MODAL
+ * Opens the edit modal in "add new term" mode with a blank form.
+ * Passes null as the term to buildTermForm(), which outputs a blank form.
+ */
 function openAddModal() {
   const mods = [...new Set([...modules,...data.terms.map(t=>t.module)])].sort();
   document.getElementById('editModal').innerHTML = buildTermForm(null, mods);
@@ -932,6 +1207,11 @@ function openAddModal() {
   document.body.style.overflow='hidden';
 }
 
+/**
+ * OPEN EDIT MODAL
+ * Opens the edit modal pre-filled with the data of an existing term.
+ * @param {string} id — the term's unique id
+ */
 function openEditModal(id) {
   const t = data.terms.find(x=>x.id===id);
   if(!t) return;
@@ -941,6 +1221,22 @@ function openEditModal(id) {
   document.body.style.overflow='hidden';
 }
 
+/**
+ * BUILD TERM FORM
+ * Generates the HTML for the add/edit modal form.
+ * When t is null → "Add New Term" form with blank fields.
+ * When t is a term object → "Edit Term" form pre-filled with its values.
+ *
+ * To add a new field to every term (e.g. an image URL or difficulty level):
+ *   1. Add a <div class="form-group"> input here
+ *   2. Read it in getFormData()
+ *   3. Add the field to existing terms in glossary.json
+ *   4. Display it in openViewModal() and renderGrid() as needed
+ *
+ * @param {object|null} t — existing term object, or null for a new term
+ * @param {string[]} mods — module label options for the dropdown
+ * @returns {string} HTML string for the modal inner content
+ */
 function buildTermForm(t, mods) {
   const isEdit = !!t;
   const modOpts = mods.map(m=>`<option value="${m}"${t&&t.module===m?' selected':''}>${m}</option>`).join('');
@@ -1009,8 +1305,22 @@ function buildTermForm(t, mods) {
   `;
 }
 
+/**
+ * ESC HTML
+ * Escapes &, ", <, > before inserting user-supplied text into innerHTML.
+ * Prevents broken HTML and XSS when a term's content contains special characters.
+ * @param {string} str — raw string from a term field
+ * @returns {string} HTML-safe escaped string
+ */
 function escHtml(str){ return str?str.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'):''; }
 
+/**
+ * GET FORM DATA
+ * Reads every field from the currently rendered add/edit form and returns
+ * a term-shaped object (without an id — that is assigned by saveAdd or kept by saveEdit).
+ * To add a new term field: add an input in buildTermForm(), then read it here.
+ * @returns {object} term object (no id field)
+ */
 function getFormData() {
   return {
     letter: document.getElementById('ef-letter').value,
@@ -1028,6 +1338,13 @@ function getFormData() {
   };
 }
 
+/**
+ * SAVE ADD
+ * Validates the form (term, definition, and example are required), generates
+ * a unique id in the format "LETTER_timestamp" (e.g. "N_1717200000000"),
+ * pushes the new term into data.terms, and triggers a full re-render.
+ * Changes are in-memory until you click "Save to GitHub".
+ */
 function saveAdd() {
   const f = getFormData();
   if(!f.term||!f.definition||!f.example) { showToast('Please fill in term, definition, and example','error'); return; }
@@ -1039,12 +1356,19 @@ function saveAdd() {
   showToast('Term "'+f.term+'" added!','success');
 }
 
+/**
+ * SAVE EDIT
+ * Validates the form, then replaces the term at the matching array index.
+ * Preserves the original id so nothing that references this term breaks.
+ * Changes are in-memory until you click "Save to GitHub".
+ * @param {string} id — the term's unique id
+ */
 function saveEdit(id) {
   const idx = data.terms.findIndex(x=>x.id===id);
   if(idx===-1) return;
   const f = getFormData();
   if(!f.term||!f.definition||!f.example) { showToast('Please fill in term, definition, and example','error'); return; }
-  f.id = id;
+  f.id = id; // Keep original id — never regenerate on edit
   data.terms[idx] = f;
   if(!modules.includes(f.module)) { modules.push(f.module); modules.sort(); }
   refreshAll();
@@ -1052,6 +1376,12 @@ function saveEdit(id) {
   showToast('Term "'+f.term+'" updated!','success');
 }
 
+/**
+ * DELETE TERM
+ * Prompts for confirmation, then removes the term from data.terms by id.
+ * Changes are in-memory until you click "Save to GitHub".
+ * @param {string} id — the term's unique id
+ */
 function deleteTerm(id) {
   const t = data.terms.find(x=>x.id===id);
   if(!t) return;
@@ -1061,8 +1391,16 @@ function deleteTerm(id) {
   showToast('Term deleted','error');
 }
 
+/** CLOSE EDIT MODAL — removes .open class and restores background scroll. */
 function closeEditModal(){ document.getElementById('editOverlay').classList.remove('open'); document.body.style.overflow=''; }
 
+/**
+ * REFRESH ALL
+ * Re-renders every view (public glossary + admin panel) after any CRUD change.
+ * Also rebuilds the `modules` array in case a new module was added or all terms
+ * for a module were deleted.
+ * Called by saveAdd, saveEdit, and deleteTerm.
+ */
 function refreshAll() {
   modules = [...new Set(data.terms.map(t=>t.module))].sort();
   renderStats();
@@ -1079,6 +1417,21 @@ function refreshAll() {
 // ══════════════════════════════════
 // GITHUB SAVE
 // ══════════════════════════════════
+/**
+ * SAVE TO GITHUB
+ * Writes the current in-memory `data` object to glossary.json in the GitHub repo
+ * using the GitHub Contents API (PUT /repos/:owner/:repo/contents/:path).
+ *
+ * Flow:
+ *   1. GET the current file to retrieve its SHA (GitHub requires this to prevent conflicts)
+ *   2. Base64-encode the formatted JSON
+ *   3. PUT it back with a commit message — GitHub creates a new commit
+ *   4. Netlify detects the commit and rebuilds the live site in ~30 seconds
+ *
+ * Credentials are entered by the user at runtime and never stored in this file.
+ * The Personal Access Token needs the `repo` scope.
+ * Get one at: GitHub → Settings → Developer Settings → Personal Access Tokens → Tokens (classic)
+ */
 async function saveToGithub() {
   const user = document.getElementById('ghUser').value.trim();
   const repo = document.getElementById('ghRepo').value.trim();
@@ -1094,10 +1447,12 @@ async function saveToGithub() {
     const getUrl = `https://api.github.com/repos/${user}/${repo}/contents/glossary.json`;
     const headers = { 'Authorization':'token '+token, 'Accept':'application/vnd.github.v3+json', 'Content-Type':'application/json' };
 
+    // Step 1: fetch the existing file's SHA — required by GitHub to confirm no conflict
     const getRes = await fetch(getUrl,{headers});
     let sha = '';
     if(getRes.ok){ const existing = await getRes.json(); sha = existing.sha; }
 
+    // Step 2: base64-encode the full JSON, then PUT it back as a new commit
     const content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2))));
     const body = { message:'Update glossary.json via admin panel', content, ...(sha&&{sha}) };
 
@@ -1120,6 +1475,13 @@ async function saveToGithub() {
 // ══════════════════════════════════
 // TOAST
 // ══════════════════════════════════
+/**
+ * SHOW TOAST
+ * Displays a temporary notification at the bottom-right of the screen.
+ * Auto-dismisses after 3 seconds by removing the .show class.
+ * @param {string} msg — message text to display
+ * @param {string} type — 'success' (green border) or 'error' (red border)
+ */
 function showToast(msg, type='success') {
   const t = document.getElementById('toast');
   t.textContent = msg;
@@ -1130,6 +1492,8 @@ function showToast(msg, type='success') {
 // ══════════════════════════════════
 // BOOT
 // ══════════════════════════════════
+// Entry point: ensure the search bar is visible, then fetch glossary.json.
+// Everything else is triggered by loadData() → initAll() once the JSON arrives.
 document.getElementById('navSearchWrap').style.display='block';
 loadData();
 </script>
