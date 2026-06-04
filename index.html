@@ -606,7 +606,6 @@ footer p{font-family:var(--mono);font-size:0.68rem;color:var(--dim);letter-spaci
           <input type="password" id="pwInput" placeholder="Enter admin password" onkeydown="if(event.key==='Enter')doLogin()"/>
         </div>
         <button class="btn btn-primary btn-full" onclick="doLogin()">Access Admin Panel →</button>
-        <p style="font-family:var(--mono);font-size:0.65rem;color:var(--muted);text-align:center;margin-top:1rem">Default password: TuringAdmin2026</p>
       </div>
     </div>
   </div>
@@ -710,7 +709,7 @@ let data = null;           // Full contents of glossary.json once loaded
 let activeLetter = null;   // Letter filter active in the alpha bar; null = show all
 let activeModule = 'all';  // Module filter active in the module bar; 'all' = show everything
 let searchQ = '';          // Live search string typed into the nav search box
-let adminPW = 'TuringAdmin2026'; // To change the admin password, update this string
+let adminPW = 'TuringAdmin2026';
 let modules = ['L01'];     // Array of unique module labels; rebuilt from data.terms on every load/change
 
 /**
