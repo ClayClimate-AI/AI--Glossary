@@ -1,3 +1,5 @@
+🌐 **Live:** [ai-glossary-itai1370.netlify.app](https://ai-glossary-itai1370.netlify.app)
+
 # AI Glossary — ITAI 1370
 ### Joseph Clay | TuringCollective | Houston Community College
 ### Professor Anna Devarakonda | CRN: 14049 | Summer 2026
