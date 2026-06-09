@@ -193,7 +193,7 @@ Every week add new terms for that module via the admin panel. By end of term the
 ### Live Site
 | Field | Value |
 |---|---|
-| Live URL | https://ai-glossary-itai1370.netlify.app |
+| Live URL | https://l01-josephclay-itai1370.netlify.app |
 | Hosting | Netlify |
 | GitHub Repo | https://github.com/ClayClimate-AI/AI--Glossary |
 | Deploy Branch | main — auto-deploys on every push |
