@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #050810;
+  --bg2: #080d1a;
+  --surface: #0c1220;
+  --card: #0f1628;
+  --card2: #131c32;
+  --border: #1a2540;
+  --border2: #243050;
+  --accent: #00d4ff;
+  --accent2: #0088cc;
+  --green: #00ffaa;
+  --gold: #ffd060;
+  --text: #e8f0ff;
+  --muted: #7090b0;
+  --dim: #2a3a55;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+/* Animated grid */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+  animation: gridMove 20s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(0, 136, 204, 0.12), transparent),
+    radial-gradient(ellipse 40% 40% at 90% 80%, rgba(0, 255, 170, 0.06), transparent);
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes gridMove {
+  from { background-position: 0 0; }
+  to   { background-position: 60px 60px; }
+}
+
+/* Logo animations */
+@keyframes brainGlow {
+  0%, 100% { filter: drop-shadow(0 0 2px #00d4ff88); }
+  50%       { filter: drop-shadow(0 0 5px #00d4ff) drop-shadow(0 0 12px #00d4ff55); }
+}
+
+@keyframes nodePulse {
+  0%, 100% { opacity: 0.35; }
+  50%       { opacity: 1; }
+}
+
+@keyframes synapse {
+  from { stroke-dashoffset: 12; }
+  to   { stroke-dashoffset: 0; }
+}
+
+.logo-svg        { animation: brainGlow 3s ease-in-out infinite; }
+.brain-node      { animation: nodePulse 2.6s ease-in-out infinite; }
+.brain-node.n2   { animation-delay: .35s; }
+.brain-node.n3   { animation-delay: .7s; }
+.brain-node.n4   { animation-delay: 1.05s; }
+.brain-node.n5   { animation-delay: .18s; animation-duration: 2s; }
+.brain-node.n6   { animation-delay: .5s; }
+.brain-node.n7   { animation-delay: .85s; }
+.brain-node.n8   { animation-delay: 1.2s; }
+.brain-synapse   { stroke-dasharray: 3 3; animation: synapse 2s linear infinite; }
+.brain-synapse.s2 { animation-delay: -.5s; }
+.brain-synapse.s3 { animation-delay: -1s; }
+.brain-synapse.s4 { animation-delay: -1.5s; }
+.brain-synapse.s5 { animation-delay: -.25s; }
+.brain-synapse.s6 { animation-delay: -.75s; }
+
+/* Card animation */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.card-animate { animation: fadeUp 0.35s ease both; }
+
+/* Hero pulse dot */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+
+.pulse-dot { animation: pulse 2s infinite; }
+
+/* Scrollbar */
+::-webkit-scrollbar       { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--dim); }
