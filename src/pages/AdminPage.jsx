@@ -318,7 +318,7 @@ function AdminDashboard({ data, setData, modules, onEdit, onAddModule, showToast
 
 /* ── Page ───────────────────────────────────────────────── */
 export default function AdminPage({
-  data, setData, modules, adminLoggedIn, setAdminLoggedIn, onEdit, showToast,
+  data, setData, modules, adminLoggedIn, setAdminLoggedIn, onEdit, showToast, onAddModule,
 }) {
   if (!adminLoggedIn) {
     return <LoginScreen onLogin={() => setAdminLoggedIn(true)} />
