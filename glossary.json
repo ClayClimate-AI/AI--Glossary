@@ -401,6 +401,786 @@
         "publisher": "IBM Think",
         "url": "https://www.ibm.com/topics/zero-shot-learning"
       }
+    },
+    {
+      "id": "L02_A",
+      "letter": "A",
+      "term": "Artificial Intelligence",
+      "definition": "The theory and development of computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, and decision-making. The Oxford Dictionary grounds AI as the simulation of intelligent behavior by machines.",
+      "example": "Virtual assistants like Siri or Alexa use AI to recognize speech and execute user requests, demonstrating machine performance of tasks once thought uniquely human.",
+      "module": "L02",
+      "source": {
+        "author": "IBM",
+        "year": "n.d.",
+        "title": "Artificial intelligence definition",
+        "publisher": "IBM",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_B",
+      "letter": "B",
+      "term": "Backpropagation (BP)",
+      "definition": "The primary mathematical method used to train a neural network by calculating the gradient of the error with respect to each weight and propagating corrections backward through the network to minimize prediction errors.",
+      "example": "Training an image classifier to distinguish a Chihuahua from a blueberry muffin relies on backpropagation to adjust internal weights until the network reliably identifies the correct features.",
+      "module": "L02",
+      "source": {
+        "author": "Goodfellow, I., Bengio, Y., & Courville, A.",
+        "year": "2016",
+        "title": "Deep learning",
+        "publisher": "MIT Press",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_C",
+      "letter": "C",
+      "term": "Chatbot (ELIZA)",
+      "definition": "A pioneering conversational program developed in 1966 at MIT by Joseph Weizenbaum that simulates human dialogue by pattern-matching user input against a script designed to mimic a Rogerian psychotherapist.",
+      "example": "A user types 'I am unhappy,' and ELIZA responds 'Can you explain what made you unhappy?' — maintaining the illusion of empathy through simple rule-based text substitution.",
+      "module": "L02",
+      "source": {
+        "author": "Devarakonda, A.",
+        "year": "2023",
+        "title": "1370 Module 2: History of AI",
+        "publisher": "Houston Community College, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_D",
+      "letter": "D",
+      "term": "Decision-Making",
+      "definition": "The cognitive process of selecting a belief or course of action from several alternatives, which AI systems replicate by evaluating inputs, applying learned models, and choosing optimal responses according to defined objectives.",
+      "example": "An autonomous vehicle must make split-second decisions to brake or swerve when an obstacle appears in its path, using sensor data and trained models rather than human judgment.",
+      "module": "L02",
+      "source": {
+        "author": "Devarakonda, A.",
+        "year": "2024",
+        "title": "ITAI 1370 Lecture 01",
+        "publisher": "Houston Community College, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_E",
+      "letter": "E",
+      "term": "Enigma Code",
+      "definition": "The complex electro-mechanical cipher system used by Nazi Germany during World War II to encrypt military communications, and the historical catalyst for Alan Turing's development of computational code-breaking machines.",
+      "example": "Breaking the Enigma Code at Bletchley Park provided critical Allied intelligence and is widely credited with significantly shortening World War II.",
+      "module": "L02",
+      "source": {
+        "author": "Devarakonda, A.",
+        "year": "2023",
+        "title": "1370 Module 2: History of AI",
+        "publisher": "Houston Community College, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_F",
+      "letter": "F",
+      "term": "First-Order Logic",
+      "definition": "A formal logical system that uses constants, variables, functions, and predicates to represent objects and their relationships, enabling AI systems to reason rigorously about structured knowledge.",
+      "example": "A database might use first-order logic with the predicate Friends(Anna, Bob) to represent a specific social relationship and derive new facts through logical inference.",
+      "module": "L02",
+      "source": {
+        "author": "Domingos, P.",
+        "year": "2019",
+        "title": "Unifying logic and statistical A.I. with Markov logic",
+        "publisher": "Communications of the ACM, 62(7), 101-112",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_G",
+      "letter": "G",
+      "term": "General Problem Solver (GPS)",
+      "definition": "An early AI program developed by Newell and Simon that uses means-ends analysis to recursively reduce the difference between a current state and a desired goal state, modeling how humans solve problems.",
+      "example": "GPS was used to prove elementary propositional calculus theorems by identifying the logical difference between axioms and the target theorem, then applying operators to close that gap.",
+      "module": "L02",
+      "source": {
+        "author": "Minsky, M.",
+        "year": "1961",
+        "title": "Steps towards artificial intelligence",
+        "publisher": "Proceedings of the IRE, 49(1), 8-30",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_H",
+      "letter": "H",
+      "term": "Heuristic Programming",
+      "definition": "The practice of encoding practical rules-of-thumb into AI programs to guide search, pattern recognition, learning, planning, and induction, enabling good-enough solutions without exhaustive computation.",
+      "example": "An AI chess engine uses heuristic programming to evaluate a manageable tree of candidate moves rather than calculating every possible game outcome from a given position.",
+      "module": "L02",
+      "source": {
+        "author": "Minsky, M.",
+        "year": "1961",
+        "title": "Steps towards artificial intelligence",
+        "publisher": "Proceedings of the IRE, 49(1), 8-30",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_I",
+      "letter": "I",
+      "term": "Induction",
+      "definition": "A reasoning method in which a machine infers general rules or patterns from specific observations or past experiences, forming the basis for generalization in machine learning.",
+      "example": "An AI system trained on thousands of tree images induces the general rule that trees typically possess trunks and green foliage, allowing it to classify new images it has never seen.",
+      "module": "L02",
+      "source": {
+        "author": "Minsky, M.",
+        "year": "1961",
+        "title": "Steps towards artificial intelligence",
+        "publisher": "Proceedings of the IRE, 49(1), 8-30",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_J",
+      "letter": "J",
+      "term": "Joseph Weizenbaum",
+      "definition": "The MIT professor who created ELIZA in 1966 — the world's first chatbot — and who later became one of AI's most prominent critics, arguing in Computer Power and Human Reason that machines should never replace human judgment in consequential decisions.",
+      "example": "Weizenbaum's work on ELIZA demonstrated how easily humans anthropomorphize machines, even when they know the responses are scripted, which alarmed him deeply about AI's social risks.",
+      "module": "L02",
+      "source": {
+        "author": "Turing, A. M.",
+        "year": "1950",
+        "title": "Computing machinery and intelligence",
+        "publisher": "Mind, 59(236), 433-460",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_K",
+      "letter": "K",
+      "term": "Kismet",
+      "definition": "A pioneering social robot developed at MIT in the late 1990s by Cynthia Breazeal, designed as an experiment in affective computing — the ability of machines to recognize and simulate human emotions.",
+      "example": "Kismet could detect a person's tone of voice and facial cues, then respond with appropriate robotic facial expressions such as happiness, surprise, or discomfort.",
+      "module": "L02",
+      "source": {
+        "author": "Devarakonda, A.",
+        "year": "2023",
+        "title": "1370 Module 2: History of AI",
+        "publisher": "Houston Community College, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_L",
+      "letter": "L",
+      "term": "Language Acquisition Device (LAD)",
+      "definition": "Noam Chomsky's theory that humans possess an innate, biologically endowed mental faculty that enables children to rapidly acquire language by hypothesizing and testing grammatical rules from environmental input.",
+      "example": "A toddler listening to their parents unconsciously identifies the grammatical parameters of their native language and begins producing novel correct sentences without formal instruction.",
+      "module": "L02",
+      "source": {
+        "author": "Chomsky, N.",
+        "year": "n.d.",
+        "title": "Theory of language acquisition",
+        "publisher": "Course Material, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_M",
+      "letter": "M",
+      "term": "Means-Ends Analysis",
+      "definition": "A recursive problem-solving strategy in which an AI identifies the most significant difference between its current state and its goal, selects an operator to reduce that difference, and repeats until the goal is reached.",
+      "example": "An AI solving a logic puzzle identifies which single next step most reduces the remaining gap to the solution, applies it, and repeats until no difference remains.",
+      "module": "L02",
+      "source": {
+        "author": "Minsky, M.",
+        "year": "1961",
+        "title": "Steps towards artificial intelligence",
+        "publisher": "Proceedings of the IRE, 49(1), 8-30",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_N",
+      "letter": "N",
+      "term": "Neural Networks (First)",
+      "definition": "Early computational models inspired by the biological structure of the human brain, consisting of interconnected nodes organized in layers that process data by passing weighted signals between them.",
+      "example": "Modern image recognition software traces directly to these early neural network architectures, which first demonstrated that machines could learn perceptual features from raw data.",
+      "module": "L02",
+      "source": {
+        "author": "Devarakonda, A.",
+        "year": "2023",
+        "title": "1370 Module 2: History of AI",
+        "publisher": "Houston Community College, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_O",
+      "letter": "O",
+      "term": "Oxford Dictionary Definition (AI)",
+      "definition": "The Oxford English Dictionary defines Artificial Intelligence as 'the theory and development of computer systems able to perform tasks normally requiring human intelligence,' used in the course to establish a shared baseline understanding of the field.",
+      "example": "The course uses the Oxford definition to frame AI around mimicking cognitive functions — translation, visual perception, speech recognition — rather than any single technique.",
+      "module": "L02",
+      "source": {
+        "author": "Devarakonda, A.",
+        "year": "2024",
+        "title": "ITAI 1370 Lecture 01",
+        "publisher": "Houston Community College, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_P",
+      "letter": "P",
+      "term": "Pattern Recognition",
+      "definition": "A core heuristic method in AI that provides a bridge between past experience and new data, enabling machines to identify regularities, classify inputs, and generalize learned structures to novel examples.",
+      "example": "Facial recognition systems on smartphones use pattern recognition to identify the unique geometric features of a user's face and compare them against a stored model to grant access.",
+      "module": "L02",
+      "source": {
+        "author": "Minsky, M.",
+        "year": "1961",
+        "title": "Steps towards artificial intelligence",
+        "publisher": "Proceedings of the IRE, 49(1), 8-30",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_Q",
+      "letter": "Q",
+      "term": "Quantum Computers",
+      "definition": "Computers that exploit quantum-mechanical phenomena — superposition and entanglement — to perform certain calculations exponentially faster than classical systems, representing a potential paradigm shift for AI computation.",
+      "example": "Quantum computing is actively being explored to accelerate AI optimization problems, such as training large models or searching vast solution spaces, that would take classical computers millennia.",
+      "module": "L02",
+      "source": {
+        "author": "Devarakonda, A.",
+        "year": "2023",
+        "title": "1370 Module 2: History of AI",
+        "publisher": "Houston Community College, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_R",
+      "letter": "R",
+      "term": "Reinforcement (Operant)",
+      "definition": "A process derived from behavioral psychology where a system's behaviors are strengthened or weakened by applying reward or punishment operators, forming the conceptual basis for reinforcement learning in AI.",
+      "example": "A trainer provides positive feedback to an AI agent each time it completes a desired action in a simulation, encouraging the agent to repeat and refine that behavior over time.",
+      "module": "L02",
+      "source": {
+        "author": "Minsky, M.",
+        "year": "1961",
+        "title": "Steps towards artificial intelligence",
+        "publisher": "Proceedings of the IRE, 49(1), 8-30",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_S",
+      "letter": "S",
+      "term": "Semantic Network",
+      "definition": "A knowledge representation structure in which concepts are stored as nodes and their relationships are stored as labeled links between those nodes, forming a graph that AI systems can traverse to reason about the world.",
+      "example": "A node labeled 'Canary' linked to 'Bird' by an 'is-a' relationship and to 'Yellow' by a 'has-color' relationship encodes factual knowledge an AI can query and infer from.",
+      "module": "L02",
+      "source": {
+        "author": "Devarakonda, A.",
+        "year": "2023",
+        "title": "1370 Module 2: History of AI",
+        "publisher": "Houston Community College, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_T",
+      "letter": "T",
+      "term": "Turing Test",
+      "definition": "A benchmark proposed by Alan Turing in 1950 for determining machine intelligence: if a human evaluator cannot reliably distinguish a machine's responses from a human's in open-ended text conversation, the machine is considered to exhibit intelligent behavior.",
+      "example": "In 2014, a chatbot named Eugene Goostman convinced 33% of judges it was a 13-year-old human boy — the most widely cited claim of passing the Turing Test.",
+      "module": "L02",
+      "source": {
+        "author": "Turing, A. M.",
+        "year": "1950",
+        "title": "Computing machinery and intelligence",
+        "publisher": "Mind, 59(236), 433-460",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_U",
+      "letter": "U",
+      "term": "Universal Grammar",
+      "definition": "Noam Chomsky's theory that all human languages share an innate underlying grammatical structure hardwired into the human mind, which children activate by exposure to their native language's specific parameters.",
+      "example": "Children across unrelated language families produce grammatically structured novel sentences they have never heard, evidence that grammar is not purely learned but partly innate.",
+      "module": "L02",
+      "source": {
+        "author": "Chomsky, N.",
+        "year": "n.d.",
+        "title": "Theory of language acquisition",
+        "publisher": "Course Material, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_V",
+      "letter": "V",
+      "term": "Visual Perception",
+      "definition": "The ability of an AI or computer system to interpret and extract meaningful information from visual data such as images and video, replicating the function of the human visual cortex.",
+      "example": "Autonomous vehicles use camera-based visual perception systems to identify lane markings, traffic lights, pedestrians, and other vehicles in real-time at highway speeds.",
+      "module": "L02",
+      "source": {
+        "author": "Devarakonda, A.",
+        "year": "2024",
+        "title": "ITAI 1370 Lecture 01",
+        "publisher": "Houston Community College, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_W",
+      "letter": "W",
+      "term": "Watson (IBM)",
+      "definition": "An advanced AI platform developed by IBM that combines natural language processing and machine learning to analyze massive unstructured datasets, and which gained public fame by defeating world-class human competitors on Jeopardy!",
+      "example": "IBM Watson defeated Jeopardy! champions Ken Jennings and Brad Rutter in 2011, demonstrating that machines could parse nuanced natural language clues and retrieve answers faster than humans.",
+      "module": "L02",
+      "source": {
+        "author": "Devarakonda, A.",
+        "year": "2023",
+        "title": "1370 Module 2: History of AI",
+        "publisher": "Houston Community College, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_X",
+      "letter": "X",
+      "term": "Xxtras (Module Skills)",
+      "definition": "A specialized curriculum section in ITAI 1370 focusing on meta-skills — the soft skills and rapid-learning strategies students need to thrive in the fast-moving AI field, such as learning how to learn any new topic in 20 focused hours.",
+      "example": "Students apply the '20-hour rule' to deliberately practice a new AI tool or concept, breaking the skill into components and tracking progress rather than passively reading about it.",
+      "module": "L02",
+      "source": {
+        "author": "Devarakonda, A.",
+        "year": "2024",
+        "title": "1370 Module 03",
+        "publisher": "Houston Community College, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_Y",
+      "letter": "Y",
+      "term": "Year 1950",
+      "definition": "The landmark year in AI history when Alan Turing published 'Computing Machinery and Intelligence' in the journal Mind, posing the question 'Can machines think?' and proposing the Imitation Game as a practical test for machine intelligence.",
+      "example": "The Year 1950 is widely recognized as the starting point for formal academic inquiry into machine intelligence, philosophy of mind, and what would become the field of Artificial Intelligence.",
+      "module": "L02",
+      "source": {
+        "author": "Turing, A. M.",
+        "year": "1950",
+        "title": "Computing machinery and intelligence",
+        "publisher": "Mind, 59(236), 433-460",
+        "url": ""
+      }
+    },
+    {
+      "id": "L02_Z",
+      "letter": "Z",
+      "term": "Zero Difference (GPS)",
+      "definition": "The ultimate goal state in the General Problem Solver framework, achieved when the measured difference between the current situation and the target objective has been fully eliminated through successive application of operators.",
+      "example": "A GPS system reaches Zero Difference when it has identified the complete sequence of logical steps needed to prove a target theorem, leaving no remaining gap between the current proof state and the goal.",
+      "module": "L02",
+      "source": {
+        "author": "Minsky, M.",
+        "year": "1961",
+        "title": "Steps towards artificial intelligence",
+        "publisher": "Proceedings of the IRE, 49(1), 8-30",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_A",
+      "letter": "A",
+      "term": "AlphaStar",
+      "definition": "An AI system developed by DeepMind that became the first program to defeat professional human players in the real-time strategy game StarCraft II, combining deep reinforcement learning, imitation learning, and evolutionary computation.",
+      "example": "AlphaStar defeated professional players 'TLO' and 'MaNa' in live matches broadcast in 2019, winning 10 out of 11 games by mastering high-level strategy, resource management, and real-time micro-control.",
+      "module": "L03",
+      "source": {
+        "author": "Arulkumaran, K., Cully, A., & Togelius, J.",
+        "year": "2019",
+        "title": "AlphaStar: An evolutionary computation perspective",
+        "publisher": "Genetic and Evolutionary Computation Conference Companion",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_B",
+      "letter": "B",
+      "term": "Behavioral Descriptors (BDs)",
+      "definition": "Measurable criteria used to characterize and differentiate the strategies of AI agents in a population, ensuring that evolutionary training produces a diverse range of high-quality playstyles rather than converging on a single approach.",
+      "example": "Tracking the ratio of 'Stalkers' versus 'Zealots' an AlphaStar agent builds serves as a behavioral descriptor that prevents the entire training population from adopting identical unit compositions.",
+      "module": "L03",
+      "source": {
+        "author": "Arulkumaran, K., Cully, A., & Togelius, J.",
+        "year": "2019",
+        "title": "AlphaStar: An evolutionary computation perspective",
+        "publisher": "Genetic and Evolutionary Computation Conference Companion",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_C",
+      "letter": "C",
+      "term": "Competitive Co-evolution",
+      "definition": "A training paradigm in which AI agents improve by competing against each other, creating a self-generating curriculum of increasing difficulty as each advance in one agent forces adaptations in its opponents.",
+      "example": "As AlphaStar agents develop more effective attacks, their in-population opponents must evolve stronger defenses, creating an arms race that pushed both sides toward professional human-level skill.",
+      "module": "L03",
+      "source": {
+        "author": "Arulkumaran, K., Cully, A., & Togelius, J.",
+        "year": "2019",
+        "title": "AlphaStar: An evolutionary computation perspective",
+        "publisher": "Genetic and Evolutionary Computation Conference Companion",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_D",
+      "letter": "D",
+      "term": "Decision Theory",
+      "definition": "A mathematical and philosophical framework used by AI to evaluate possible actions by modeling probabilities, outcomes, and preferences, enabling agents to select the action that maximizes expected utility.",
+      "example": "An AI agent in a strategy game applies decision theory to anticipate opponent moves, assign probabilities to outcomes, and choose the response that offers the highest expected chance of winning.",
+      "module": "L03",
+      "source": {
+        "author": "Devarakonda, A.",
+        "year": "2024",
+        "title": "1370 Module 03",
+        "publisher": "Houston Community College, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_E",
+      "letter": "E",
+      "term": "Evolutionary Computation (EC)",
+      "definition": "A family of AI optimization methods inspired by biological evolution that use population-based search, selection, crossover, and mutation to discover increasingly effective solutions over successive generations.",
+      "example": "AlphaStar employs EC in an outer training loop to automatically tune each agent's hyperparameters — such as learning rate and entropy coefficient — by evolving those settings alongside the agents themselves.",
+      "module": "L03",
+      "source": {
+        "author": "Arulkumaran, K., Cully, A., & Togelius, J.",
+        "year": "2019",
+        "title": "AlphaStar: An evolutionary computation perspective",
+        "publisher": "Genetic and Evolutionary Computation Conference Companion",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_F",
+      "letter": "F",
+      "term": "Field of View",
+      "definition": "A circular observation area with a fixed radius within which an AI agent can perceive other entities and environmental data, used in multi-agent simulations to model realistic perceptual constraints and partial observability.",
+      "example": "A robot navigating a warehouse simulation can only detect other agents and obstacles within a 10-meter radius field of view, requiring it to plan under uncertainty about the wider environment.",
+      "module": "L03",
+      "source": {
+        "author": "Samvelyan, M., et al.",
+        "year": "2019",
+        "title": "The StarCraft multi-agent challenge",
+        "publisher": "arXiv preprint arXiv:1902.04043",
+        "url": "https://arxiv.org/abs/1902.04043"
+      }
+    },
+    {
+      "id": "L03_G",
+      "letter": "G",
+      "term": "Go",
+      "definition": "An ancient Chinese board game that long served as the defining grand challenge for AI game-playing due to its astronomically large state space — roughly 10^170 possible positions — which made traditional tree-search methods completely impractical.",
+      "example": "Google DeepMind's AlphaGo defeated world champion Lee Sedol 4-1 in 2016, a milestone widely regarded as one of the most significant achievements in the history of AI.",
+      "module": "L03",
+      "source": {
+        "author": "Devarakonda, A.",
+        "year": "2024",
+        "title": "1370 Module 03",
+        "publisher": "Houston Community College, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_H",
+      "letter": "H",
+      "term": "Hyperparameters",
+      "definition": "Configuration settings that govern an AI model's learning process — such as learning rate, batch size, and entropy coefficient — which are set before training begins and can be automatically tuned through evolutionary search.",
+      "example": "AlphaStar's evolutionary outer loop automatically mutates each agent's learning rate during training, discovering the settings that produced the most successful agents over thousands of games.",
+      "module": "L03",
+      "source": {
+        "author": "Arulkumaran, K., Cully, A., & Togelius, J.",
+        "year": "2019",
+        "title": "AlphaStar: An evolutionary computation perspective",
+        "publisher": "Genetic and Evolutionary Computation Conference Companion",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_I",
+      "letter": "I",
+      "term": "Imitation Learning",
+      "definition": "A training approach in which an AI agent bootstraps its skills by learning to mimic the behavior of human experts from recorded demonstration data, before transitioning to self-improvement through reinforcement learning.",
+      "example": "AlphaStar was initialized by training on a dataset of millions of human StarCraft II replays, learning the basic mechanics and conventions of the game before refining its strategy through competitive self-play.",
+      "module": "L03",
+      "source": {
+        "author": "Arulkumaran, K., Cully, A., & Togelius, J.",
+        "year": "2019",
+        "title": "AlphaStar: An evolutionary computation perspective",
+        "publisher": "Genetic and Evolutionary Computation Conference Companion",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_J",
+      "letter": "J",
+      "term": "Jeopardy!",
+      "definition": "The American TV quiz show that served as a landmark AI milestone when IBM Watson competed in and won a special exhibition in 2011, demonstrating machine competence in open-domain natural language understanding and rapid information retrieval.",
+      "example": "Watson defeated Jeopardy! champions Ken Jennings and Brad Rutter across two episodes, correctly processing and answering complex, punned, and category-dependent clues faster than its human competitors.",
+      "module": "L03",
+      "source": {
+        "author": "Devarakonda, A.",
+        "year": "2023",
+        "title": "1370 Module 2: History of AI",
+        "publisher": "Houston Community College, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_K",
+      "letter": "K",
+      "term": "Knowledge (Common)",
+      "definition": "A state in multi-agent systems in which every agent knows a set of facts, knows that all other agents know those facts, and knows that all other agents know that they know — enabling coordinated group behavior.",
+      "example": "In a robot soccer match, all robots simultaneously detecting the ball's position creates common knowledge that allows the team to coordinate an attacking play without explicit communication.",
+      "module": "L03",
+      "source": {
+        "author": "Samvelyan, M., et al.",
+        "year": "2019",
+        "title": "The StarCraft multi-agent challenge",
+        "publisher": "arXiv preprint arXiv:1902.04043",
+        "url": "https://arxiv.org/abs/1902.04043"
+      }
+    },
+    {
+      "id": "L03_L",
+      "letter": "L",
+      "term": "Lamarckian Evolution",
+      "definition": "A training process in AI — inspired by the discredited biological theory of inherited acquired characteristics — where a winning agent's learned neural network weights are directly copied and mutated into a losing agent, accelerating learning across the population.",
+      "example": "When a StarCraft match ends, the losing AlphaStar agent's neural network parameters are overwritten with a mutated copy of the winner's parameters, passing learned skill directly between agents.",
+      "module": "L03",
+      "source": {
+        "author": "Arulkumaran, K., Cully, A., & Togelius, J.",
+        "year": "2019",
+        "title": "AlphaStar: An evolutionary computation perspective",
+        "publisher": "Genetic and Evolutionary Computation Conference Companion",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_M",
+      "letter": "M",
+      "term": "Multi-Agent Reinforcement Learning (MARL)",
+      "definition": "A reinforcement learning framework in which multiple independent agents simultaneously learn policies within a shared environment by interacting, competing, or cooperating — each agent treating the others as part of its dynamic environment.",
+      "example": "Autonomous vehicles on a highway use MARL to coordinate speed adjustments and lane changes in real time, each car learning safe policies while adapting to the learned behaviors of surrounding vehicles.",
+      "module": "L03",
+      "source": {
+        "author": "Samvelyan, M., et al.",
+        "year": "2019",
+        "title": "The StarCraft multi-agent challenge",
+        "publisher": "arXiv preprint arXiv:1902.04043",
+        "url": "https://arxiv.org/abs/1902.04043"
+      }
+    },
+    {
+      "id": "L03_N",
+      "letter": "N",
+      "term": "Nash Distribution",
+      "definition": "A game-theoretic equilibrium concept used in AlphaStar to define a mixture of complementary strategies such that no single opponent strategy can consistently exploit the combined agent — ensuring robustness through strategic diversity.",
+      "example": "The final AlphaStar agent released to Battle.net was a mixture of strategies drawn from the Nash distribution, making it unpredictable and resistant to being consistently countered by any one playstyle.",
+      "module": "L03",
+      "source": {
+        "author": "Arulkumaran, K., Cully, A., & Togelius, J.",
+        "year": "2019",
+        "title": "AlphaStar: An evolutionary computation perspective",
+        "publisher": "Genetic and Evolutionary Computation Conference Companion",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_O",
+      "letter": "O",
+      "term": "Observability (Partial)",
+      "definition": "A condition in game and simulation environments where an agent cannot perceive the full state of the world at any given moment — commonly called 'fog of war' — requiring the agent to act under uncertainty about hidden information.",
+      "example": "In StarCraft II, the map is hidden except near a player's own units, so players must dedicate resources to scouting to learn what opponents are building before deciding on a strategy.",
+      "module": "L03",
+      "source": {
+        "author": "Samvelyan, M., et al.",
+        "year": "2019",
+        "title": "The StarCraft multi-agent challenge",
+        "publisher": "arXiv preprint arXiv:1902.04043",
+        "url": "https://arxiv.org/abs/1902.04043"
+      }
+    },
+    {
+      "id": "L03_P",
+      "letter": "P",
+      "term": "Population-Based Training (PBT)",
+      "definition": "A training method in which a large population of AI agents are trained simultaneously, with successful agents periodically sharing their learned weights and hyperparameters with less successful ones, accelerating overall improvement.",
+      "example": "If one AlphaStar agent discovers an effective new build order, PBT allows neighboring agents in the population to inherit a copy of that strategy, spreading successful innovations throughout the training pool.",
+      "module": "L03",
+      "source": {
+        "author": "Arulkumaran, K., Cully, A., & Togelius, J.",
+        "year": "2019",
+        "title": "AlphaStar: An evolutionary computation perspective",
+        "publisher": "Genetic and Evolutionary Computation Conference Companion",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_Q",
+      "letter": "Q",
+      "term": "Quality Diversity (QD)",
+      "definition": "A class of evolutionary algorithms that explicitly optimize for both the quality and the diversity of solutions, maintaining an archive of high-performing but behaviorally distinct strategies rather than converging on a single optimum.",
+      "example": "AlphaStar used QD to develop agents specializing in dramatically different playstyles — air-heavy, ground-heavy, economic, aggressive — making its overall strategy harder for human players to predict and counter.",
+      "module": "L03",
+      "source": {
+        "author": "Arulkumaran, K., Cully, A., & Togelius, J.",
+        "year": "2019",
+        "title": "AlphaStar: An evolutionary computation perspective",
+        "publisher": "Genetic and Evolutionary Computation Conference Companion",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_R",
+      "letter": "R",
+      "term": "Reinforcement Learning (RL)",
+      "definition": "An AI training paradigm in which an agent learns a policy for selecting actions by interacting with an environment and receiving scalar reward signals, optimizing its behavior over time to maximize cumulative reward.",
+      "example": "AlphaGo used RL to improve beyond human-level play by having two copies of itself compete in millions of self-play games, updating its network weights based on which moves led to victory.",
+      "module": "L03",
+      "source": {
+        "author": "Devarakonda, A.",
+        "year": "2024",
+        "title": "1370 Module 03",
+        "publisher": "Houston Community College, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_S",
+      "letter": "S",
+      "term": "Steady State Evolutionary Algorithm",
+      "definition": "An asynchronous evolutionary strategy where individual members of a population are evaluated and replaced one at a time rather than in synchronized generational batches, allowing continuous updates without waiting for the entire population to finish.",
+      "example": "AlphaStar uses a steady state approach so that as soon as any agent finishes a game, the result immediately updates the population — preventing fast-finishing agents from sitting idle while slower matchups complete.",
+      "module": "L03",
+      "source": {
+        "author": "Arulkumaran, K., Cully, A., & Togelius, J.",
+        "year": "2019",
+        "title": "AlphaStar: An evolutionary computation perspective",
+        "publisher": "Genetic and Evolutionary Computation Conference Companion",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_T",
+      "letter": "T",
+      "term": "Text Adventure Games",
+      "definition": "Interactive fiction games in which players navigate a simulated world entirely through natural language text commands, providing AI researchers with a controlled benchmark for testing language understanding, commonsense reasoning, and planning.",
+      "example": "Researchers test AI language understanding by having agents play Zork, where the system must parse descriptions like 'a rusty lantern' and determine whether objects can be taken, used, or combined to solve puzzles.",
+      "module": "L03",
+      "source": {
+        "author": "Justesen, N., Bontrager, P., Togelius, J., & Risi, S.",
+        "year": "2019",
+        "title": "Deep learning for video game playing",
+        "publisher": "IEEE Transactions on Games, 11(4), 273-291",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_U",
+      "letter": "U",
+      "term": "Uncertain Environments",
+      "definition": "Game environments that combine controlled rules with hidden information or stochastic outcomes, providing ideal testbeds for AI systems that must reason and decide under incomplete knowledge.",
+      "example": "Poker serves as a canonical uncertain environment: the AI must learn to play optimally while managing hidden opponent cards, probability estimation, and strategic bluffing — skills that transfer to real-world decision-making.",
+      "module": "L03",
+      "source": {
+        "author": "Devarakonda, A.",
+        "year": "2024",
+        "title": "1370 Module 03",
+        "publisher": "Houston Community College, ITAI 1370",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_V",
+      "letter": "V",
+      "term": "Video Game Playing",
+      "definition": "The research field focused on training deep learning agents to master complex digital game environments, using games as controlled proxies for real-world intelligence challenges including perception, planning, and real-time decision-making.",
+      "example": "Training an AI to play Super Mario Bros. faster than any human required agents to learn long-horizon planning, precise timing, and generalization across hundreds of varied level layouts.",
+      "module": "L03",
+      "source": {
+        "author": "Justesen, N., Bontrager, P., Togelius, J., & Risi, S.",
+        "year": "2019",
+        "title": "Deep learning for video game playing",
+        "publisher": "IEEE Transactions on Games, 11(4), 273-291",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_W",
+      "letter": "W",
+      "term": "Word Embeddings",
+      "definition": "A representation technique in which words are mapped to dense numeric vectors in a high-dimensional space such that semantically related words are geometrically close, enabling AI systems to reason about meaning and relationships between concepts.",
+      "example": "An AI agent playing a text adventure uses word embeddings to understand that a 'boulder' has the property of being 'throwable' and 'heavy' based on its vector proximity to those concepts, even without explicit rules.",
+      "module": "L03",
+      "source": {
+        "author": "Justesen, N., Bontrager, P., Togelius, J., & Risi, S.",
+        "year": "2019",
+        "title": "Deep learning for video game playing",
+        "publisher": "IEEE Transactions on Games, 11(4), 273-291",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_X",
+      "letter": "X",
+      "term": "XWORLD",
+      "definition": "A 2D grid-based training environment developed at Baidu in which AI agents learn to understand and execute natural language commands — such as 'go to the red apple' — by interacting with objects in a simple visual world guided by a teacher agent.",
+      "example": "An AI agent trained in XWORLD learns to map the phrase 'pick up the blue key' to the correct sequence of navigation and interaction actions after receiving language-conditioned reward signals from its teacher.",
+      "module": "L03",
+      "source": {
+        "author": "Justesen, N., Bontrager, P., Togelius, J., & Risi, S.",
+        "year": "2019",
+        "title": "Deep learning for video game playing",
+        "publisher": "IEEE Transactions on Games, 11(4), 273-291",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_Y",
+      "letter": "Y",
+      "term": "Yannakakis, Georgios N.",
+      "definition": "A leading academic researcher in the field of AI and games, co-author of foundational texts on the subject, and a key figure in establishing games as a rigorous scientific benchmark for evaluating and advancing artificial intelligence.",
+      "example": "Yannakakis's research is cited in discussions of how video games provide measurable, reproducible environments for comparing AI performance, grounding what could otherwise be vague claims about machine intelligence.",
+      "module": "L03",
+      "source": {
+        "author": "Arulkumaran, K., Cully, A., & Togelius, J.",
+        "year": "2019",
+        "title": "AlphaStar: An evolutionary computation perspective",
+        "publisher": "Genetic and Evolutionary Computation Conference Companion",
+        "url": ""
+      }
+    },
+    {
+      "id": "L03_Z",
+      "letter": "Z",
+      "term": "Z-Machine Games",
+      "definition": "A virtual machine platform originally developed by Infocom in 1979 to run text-adventure games portably, and later adopted by AI researchers as a standardized benchmark suite for testing natural language understanding and object affordance reasoning.",
+      "example": "Researchers evaluated AI agents across 50 Z-Machine games to test whether systems could correctly infer from text descriptions alone which objects could be picked up, thrown, or consumed — without any pre-programmed rules about object properties.",
+      "module": "L03",
+      "source": {
+        "author": "Justesen, N., Bontrager, P., Togelius, J., & Risi, S.",
+        "year": "2019",
+        "title": "Deep learning for video game playing",
+        "publisher": "IEEE Transactions on Games, 11(4), 273-291",
+        "url": ""
+      }
     }
   ]
 }
