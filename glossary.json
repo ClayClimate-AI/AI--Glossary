@@ -1181,6 +1181,1026 @@
         "publisher": "IEEE Transactions on Games, 11(4), 273-291",
         "url": ""
       }
+    },
+    {
+      "id": "L04_A",
+      "letter": "A",
+      "term": "AVA (Automated Virtual Assistant)",
+      "definition": "A next-generation digital assistant featuring an animated face and \"emotional savvy\" designed to engage customers at a deeper level than standard conversational software.",
+      "example": "Autodesk uses AVA to assist customers with software issues; she is programmed to \"frown a bit\" and offer sympathy if a customer tells her they are having trouble.",
+      "module": "L04",
+      "source": {
+        "author": "Virtual, digital human modeling",
+        "year": "n.d.",
+        "title": "Virtual, digital human modeling [Course Presentation]",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_B",
+      "letter": "B",
+      "term": "BabyX",
+      "definition": "A developmental prototype designed as an autonomously animated psycho-biological model of a virtual infant with a bio-based brain.",
+      "example": "BabyX can proactively learn through direct experience; for instance, she can name a picture of an apple when it is held up to her camera.",
+      "module": "L04",
+      "source": {
+        "author": "Soul Machines",
+        "year": "n.d.",
+        "title": "Soul Machines: Pioneering research into progressing human-machine collaboration",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_C",
+      "letter": "C",
+      "term": "Cloud Rendering",
+      "definition": "The process of leveraging a distributed network of GPUs to render high-quality graphics more efficiently and quickly than traditional centralized systems.",
+      "example": "OTOY's cloud-rendering technology has been used to create sophisticated visuals for major films such as Avatar, Star Wars, and Westworld.",
+      "module": "L04",
+      "source": {
+        "author": "Blockchain Startup RNDR",
+        "year": "2018",
+        "title": "Blockchain startup RNDR surpasses GPU capacity of public cloud tech giants with world's largest GPU cloud rendering network",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_D",
+      "letter": "D",
+      "term": "Digital Human Models (DHM)",
+      "definition": "Software representations of humans, also known as three-dimensional manikins, that enable designers to visualize the effectiveness of a design before building a physical prototype.",
+      "example": "Engineers use DHM programs to import 3-D CAD models of a vehicle and place manikins of various sizes into the virtual environment to test for ergonomics.",
+      "module": "L04",
+      "source": {
+        "author": "Virtual, digital human modeling",
+        "year": "n.d.",
+        "title": "Virtual, digital human modeling [Course Presentation]",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_E",
+      "letter": "E",
+      "term": "Experiential Learning",
+      "definition": "A technology where a digital person learns and discovers things about the world through direct experience and interactive play with people.",
+      "example": "BabyX uses experiential learning to interact with the world around her, allowing her to sense, adapt, and communicate in a way that feels alive.",
+      "module": "L04",
+      "source": {
+        "author": "Soul Machines",
+        "year": "n.d.",
+        "title": "Soul Machines: Pioneering research into progressing human-machine collaboration",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_F",
+      "letter": "F",
+      "term": "Facial Tracking",
+      "definition": "The use of camera input to monitor a user's face and analyze their expressions, enabling a digital entity to respond with appropriate emotional behavior.",
+      "example": "BabyX uses facial tracking to see when a person is standing in front of her, allowing her to smile and react to their specific stimuli.",
+      "module": "L04",
+      "source": {
+        "author": "Virtual, digital human modeling",
+        "year": "n.d.",
+        "title": "Virtual, digital human modeling [Course Presentation]",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_G",
+      "letter": "G",
+      "term": "GPU (Graphics Processing Unit)",
+      "definition": "Specialized hardware units that provide the massive processing power required for rendering stunning content displays and accelerating graphics creation.",
+      "example": "The RNDR network harnesses the idle power of over 14,000 GPUs from owners worldwide to create the world's largest cloud network of its kind.",
+      "module": "L04",
+      "source": {
+        "author": "Blockchain Startup RNDR",
+        "year": "2018",
+        "title": "Blockchain startup RNDR surpasses GPU capacity of public cloud tech giants with world's largest GPU cloud rendering network",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_H",
+      "letter": "H",
+      "term": "Human OS Platform",
+      "definition": "A patented operating system platform that allows for the creation of lifelike, dynamically interactive Digital People driven by a digital brain.",
+      "example": "Soul Machines utilizes the Human OS to work with leading brands, reimagining AI as a platform to change the customer experience face-to-face.",
+      "module": "L04",
+      "source": {
+        "author": "Soul Machines",
+        "year": "n.d.",
+        "title": "Soul Machines: Pioneering research into progressing human-machine collaboration",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_I",
+      "letter": "I",
+      "term": "Ingress & Egress",
+      "definition": "The analysis of how humans physically enter (ingress) and exit (egress) a space, such as a vehicle's cabin or a manufacturing environment.",
+      "example": "Automakers use digital simulations to study the ingress and egress of virtual passengers to ensure that seat positioning and door clearances are comfortable.",
+      "module": "L04",
+      "source": {
+        "author": "Virtual, digital human modeling",
+        "year": "n.d.",
+        "title": "Virtual, digital human modeling [Course Presentation]",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_J",
+      "letter": "J",
+      "term": "Jack",
+      "definition": "A human modeling and simulation program used to study the impact of assembly work environments on human workers.",
+      "example": "Companies like Ford and GM use Jack to identify safety hazards, such as awkward postures, by positioning a virtual human in their production cell designs.",
+      "module": "L04",
+      "source": {
+        "author": "Virtual, digital human modeling",
+        "year": "n.d.",
+        "title": "Virtual, digital human modeling [Course Presentation]",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_K",
+      "letter": "K",
+      "term": "Key Research Fields",
+      "definition": "The integration of multiple disciplines—including Neuroscience, Affective Computing, and Cognitive Science—to create biologically inspired AI.",
+      "example": "Soul Machines brings together these key research fields to enable BabyX to manifest various models of the brain for scaled interactions.",
+      "module": "L04",
+      "source": {
+        "author": "Soul Machines",
+        "year": "n.d.",
+        "title": "Soul Machines: Pioneering research into progressing human-machine collaboration",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_L",
+      "letter": "L",
+      "term": "CGI (Computer-Generated Imagery)",
+      "definition": "Advanced computer-generated imagery combined with physiological and emotional models to create digital beings that look and behave like humans.",
+      "example": "Soul Machines creates lifelike CGI personas that can talk face-to-face with humans, offering a deeper connection than traditional CGI or animation.",
+      "module": "L04",
+      "source": {
+        "author": "Soul Machines",
+        "year": "n.d.",
+        "title": "Soul Machines: Pioneering research into progressing human-machine collaboration",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_M",
+      "letter": "M",
+      "term": "Manikins",
+      "definition": "Three-dimensional software representations of humans, also known as Digital Human Models (DHMs), used by designers for design analysis.",
+      "example": "Manikins like Santos are used in military simulations to predict realistic motions, such as a soldier getting into and out of a tank.",
+      "module": "L04",
+      "source": {
+        "author": "Virtual, digital human modeling",
+        "year": "n.d.",
+        "title": "Virtual, digital human modeling [Course Presentation]",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_N",
+      "letter": "N",
+      "term": "Nadia",
+      "definition": "A digital human designed to read emotions and help users navigate complex information systems using a lifelike interface.",
+      "example": "Nadia, voiced by actress Cate Blanchett, helps Australians with disabilities navigate the National Disability Insurance Scheme (NDIS) by \"watching\" their faces to read emotions.",
+      "module": "L04",
+      "source": {
+        "author": "Virtual, digital human modeling",
+        "year": "n.d.",
+        "title": "Virtual, digital human modeling [Course Presentation]",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_O",
+      "letter": "O",
+      "term": "OctaneBench (OB)",
+      "definition": "A GPU benchmarking utility used to measure and compare the cumulative capacity of different GPU rendering network instances.",
+      "example": "The RNDR network harnesses a combined rendering power of 1.5 million OctaneBench, surpassing the capacity limit of 1 million OB for centralized cloud players.",
+      "module": "L04",
+      "source": {
+        "author": "Blockchain Startup RNDR",
+        "year": "2018",
+        "title": "Blockchain startup RNDR surpasses GPU capacity of public cloud tech giants with world's largest GPU cloud rendering network",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_P",
+      "letter": "P",
+      "term": "Physiology Models",
+      "definition": "A biologically based approach to AI that incorporates human factors like cognitive and emotional states to drive facial behavior and brain states.",
+      "example": "When BabyX smiles, her simulated brain responds by releasing a virtual cocktail of hormones like dopamine and endorphins into her system.",
+      "module": "L04",
+      "source": {
+        "author": "Virtual, digital human modeling",
+        "year": "n.d.",
+        "title": "Virtual, digital human modeling [Course Presentation]",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_Q",
+      "letter": "Q",
+      "term": "Q2 Beta Testing Survey",
+      "definition": "A large-scale survey of network contributors used to determine the collective processing power of a decentralized GPU network.",
+      "example": "Data from the Q2 survey of over 1,200 individuals supported the conclusion that RNDR is the world's largest GPU cloud network of its kind.",
+      "module": "L04",
+      "source": {
+        "author": "Blockchain Startup RNDR",
+        "year": "2018",
+        "title": "Blockchain startup RNDR surpasses GPU capacity of public cloud tech giants with world's largest GPU cloud rendering network",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_R",
+      "letter": "R",
+      "term": "RNDR Network",
+      "definition": "A blockchain-based rendering platform that utilizes a global decentralized network of idle GPUs to render graphics more efficiently.",
+      "example": "The RNDR network allows everyday content creators access to heavy-duty processing power previously only available to high-power Hollywood studios.",
+      "module": "L04",
+      "source": {
+        "author": "Blockchain Startup RNDR",
+        "year": "2018",
+        "title": "Blockchain startup RNDR surpasses GPU capacity of public cloud tech giants with world's largest GPU cloud rendering network",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_S",
+      "letter": "S",
+      "term": "Santos",
+      "definition": "A fifth-generation biomechanically accurate digital human model with an anatomically correct musculoskeletal system and intelligence.",
+      "example": "Santos is used to predict realistic postures unaided, allowing users to monitor his vitals and energy during a task like climbing a ladder.",
+      "module": "L04",
+      "source": {
+        "author": "Virtual, digital human modeling",
+        "year": "n.d.",
+        "title": "Virtual, digital human modeling [Course Presentation]",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_T",
+      "letter": "T",
+      "term": "Tecnomatix Suite",
+      "definition": "A software suite from Siemens PLM that includes digital human modeling tools like Jack and Jill for studying assembly environments.",
+      "example": "Automakers utilize the Tecnomatix suite to digitally simulate assembly work environments to assess things like visibility and strength requirements.",
+      "module": "L04",
+      "source": {
+        "author": "Virtual, digital human modeling",
+        "year": "n.d.",
+        "title": "Virtual, digital human modeling [Course Presentation]",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_U",
+      "letter": "U",
+      "term": "Unity",
+      "definition": "A global game development platform that enables creators to build advanced cinematic graphics and interactive experiences.",
+      "example": "OTOY partnered with Unity to allow game developers to leverage sophisticated cloud-rendering technology for high-quality real-time visuals.",
+      "module": "L04",
+      "source": {
+        "author": "Blockchain Startup RNDR",
+        "year": "2018",
+        "title": "Blockchain startup RNDR surpasses GPU capacity of public cloud tech giants with world's largest GPU cloud rendering network",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_V",
+      "letter": "V",
+      "term": "Virtual Nervous System",
+      "definition": "A computer program architecture that interconnects cognitive, physiological, and emotional models to simulate human response and behavior.",
+      "example": "The BabyX project defines an architecture that interconnects various models as a virtual nervous system to coordinate sensing and communication.",
+      "module": "L04",
+      "source": {
+        "author": "Virtual, digital human modeling",
+        "year": "n.d.",
+        "title": "Virtual, digital human modeling [Course Presentation]",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_W",
+      "letter": "W",
+      "term": "Will (Digital Teacher)",
+      "definition": "A digital person created to act as a teacher in education programs, helping machines relate to and trust people.",
+      "example": "Will is a \"digital teacher\" trialed in Auckland primary schools to educate children about sustainability and energy.",
+      "module": "L04",
+      "source": {
+        "author": "Virtual, digital human modeling",
+        "year": "n.d.",
+        "title": "Virtual, digital human modeling [Course Presentation]",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_X",
+      "letter": "X",
+      "term": "eXperiential Learning",
+      "definition": "A deep learning method where an AI proactively discovers facts about the world through direct play and experience with humans.",
+      "example": "Soul Machines explores experiential learning to maximize the opportunity for machine-human collaboration in dynamic social worlds.",
+      "module": "L04",
+      "source": {
+        "author": "Soul Machines",
+        "year": "n.d.",
+        "title": "Soul Machines: Pioneering research into progressing human-machine collaboration",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_Y",
+      "letter": "Y",
+      "term": "Year 2018",
+      "definition": "The year in which decentralized rendering technology achieved a milestone by surpassing the cumulative capacity of major public cloud providers.",
+      "example": "In the year 2018, RNDR data revealed its global network had surpassed the GPU capacity of centralized tech giants like Amazon and Google.",
+      "module": "L04",
+      "source": {
+        "author": "Blockchain Startup RNDR",
+        "year": "2018",
+        "title": "Blockchain startup RNDR surpasses GPU capacity of public cloud tech giants with world's largest GPU cloud rendering network",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L04_Z",
+      "letter": "Z",
+      "term": "Zealand (New Zealand)",
+      "definition": "The country where Soul Machines is headquartered and where much of the pioneering research into Digital People and AGI originates.",
+      "example": "Air New Zealand worked with Soul Machines to develop Sophie, a digital travel concierge used by travelers.",
+      "module": "L04",
+      "source": {
+        "author": "Soul Machines",
+        "year": "n.d.",
+        "title": "Soul Machines: Pioneering research into progressing human-machine collaboration",
+        "publisher": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_A",
+      "letter": "A",
+      "term": "Adversarial Examples",
+      "definition": "Slight perturbations to input data—often imperceptible to humans—that cause a machine learning model to make inaccurate predictions.",
+      "example": "Changing the color of a single pixel in an image to trick a model into misclassifying a cat as a dog.",
+      "module": "L05",
+      "source": {
+        "author": "Matheson, R.",
+        "year": "2020",
+        "title": "Doing machine learning the right way",
+        "publisher": "MIT News Office",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_B",
+      "letter": "B",
+      "term": "Big Data",
+      "definition": "Data sources characterized by the \"four Vs\": extreme Volume, high Velocity of movement, an expanding Variety of sources, and Veracity of truth.",
+      "example": "A smart city collecting massive volumes of real-time sensor data from smart meters and GPS devices to manage traffic and energy.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_C",
+      "letter": "C",
+      "term": "Clustering",
+      "definition": "An unsupervised learning technique where objects with similar parameters are grouped together into clusters.",
+      "example": "A marketer using clustering to segment a customer database into groups like \"persuadables\" or \"lost causes\" to target an ad campaign.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_D",
+      "letter": "D",
+      "term": "Deep Learning",
+      "definition": "A sub-discipline of machine learning that uses hierarchical neural networks with multiple hidden layers to learn patterns from unstructured data.",
+      "example": "Self-driving cars using deep learning algorithms to interpret video feeds from cameras to make near real-time driving decisions.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_E",
+      "letter": "E",
+      "term": "Ethical Computing",
+      "definition": "The practice of considering the human consequences and potential societal ramifications of building and deploying AI technologies.",
+      "example": "A developer asking not just if they can build an autonomous tracking system, but if they should build it given its impact on privacy.",
+      "module": "L05",
+      "source": {
+        "author": "Matheson, R.",
+        "year": "2020",
+        "title": "Doing machine learning the right way",
+        "publisher": "MIT News Office",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_F",
+      "letter": "F",
+      "term": "Feature",
+      "definition": "A labeled attribute or characteristic within a dataset that helps define the data's meaning for a machine learning model.",
+      "example": "Identifying specific visual clusters in a medical image, such as an animal's snout or ears, to help a system classify the subject.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_G",
+      "letter": "G",
+      "term": "GPT-3",
+      "definition": "A powerful deep learning system with 175 billion parameters designed to produce human-like text based on the likelihood of word relationships.",
+      "example": "Giving the system a few sentences and having it generate an entire, coherent news article.",
+      "module": "L05",
+      "source": {
+        "author": "Simon, C.",
+        "year": "2020",
+        "title": "GPT-3 is impressive, but it isn't artificial general intelligence",
+        "publisher": "Digital Experience",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_H",
+      "letter": "H",
+      "term": "Hybrid Cloud",
+      "definition": "A combination of public cloud services and on-premises (private) infrastructure intended to work in unison for flexibility and scalability.",
+      "example": "A company using cloud-based GPUs for the heavy processing of training a model while keeping sensitive patient data on its own secure servers.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_I",
+      "letter": "I",
+      "term": "Iterative Learning",
+      "definition": "A process where models are continuously refined as they are exposed to new training data, allowing them to improve their predictive accuracy over time.",
+      "example": "An e-commerce recommendation engine that updates its suggestions every time a customer browses a new product category.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_J",
+      "letter": "J",
+      "term": "Java",
+      "definition": "One of the primary programming languages used to write and operationalize machine learning algorithms through specialized libraries.",
+      "example": "A software engineer using a Java-based library to integrate a predictive churn model into a company's customer management system.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_K",
+      "letter": "K",
+      "term": "Kaggle Wiki",
+      "definition": "A community resource and platform used for learning statistics and machine learning through tutorials and data science competitions.",
+      "example": "A student entering a Kaggle competition to test their ability to predict house prices using a public dataset.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_L",
+      "letter": "L",
+      "term": "Linear Regression",
+      "definition": "A statistical and machine learning algorithm used to quantify and model the strength of correlation between different variables in a dataset.",
+      "example": "An analyst using linear regression to predict future sales based on historical values and current marketing spend.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_M",
+      "letter": "M",
+      "term": "Machine Learning as a Service (MLaaS)",
+      "definition": "A variety of machine learning capabilities, such as image or voice recognition, delivered via cloud computing platforms.",
+      "example": "A small startup uploading data to a cloud provider to use their high-performance GPUs for training a complex deep learning model.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_N",
+      "letter": "N",
+      "term": "Natural Language Processing (NLP)",
+      "definition": "The ability of a computer system to understand, interpret, and generate human written text and spoken language.",
+      "example": "A customer using a spoken interface to ask an automated system for a \"safe internal temperature for a chicken drumstick.\"",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_O",
+      "letter": "O",
+      "term": "Overfitting",
+      "definition": "A problem that occurs when a model is so precisely tuned to its training data that it fails to generalize or make accurate predictions on new, unknown data.",
+      "example": "A fraud-detection model that can identify past theft perfectly but fails to flag a new, slightly different fraudulent transaction.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_P",
+      "letter": "P",
+      "term": "Predictive Analytics",
+      "definition": "An advanced analytics approach that leverages machine learning algorithms to identify patterns and anomalies in data to anticipate future outcomes.",
+      "example": "A hospital using predictive models to determine which combination of drugs will provide the best outcome for a specific cancer patient.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_R",
+      "letter": "R",
+      "term": "Reinforcement Learning",
+      "definition": "A behavioral learning model where an algorithm learns through trial and error, receiving feedback to solve a problem based on successful sequences of actions.",
+      "example": "Training a robot to navigate stairs by having it recalibrate its data and approach every time it falls, until it succeeds.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_S",
+      "letter": "S",
+      "term": "Supervised Learning",
+      "definition": "A machine learning approach that begins with an established set of labeled data to find patterns that can be applied to an analytics process.",
+      "example": "A weather forecasting model trained on historical weather patterns and current conditions to provide a prediction for the next day.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_T",
+      "letter": "T",
+      "term": "Training",
+      "definition": "The iterative process of exposing a machine learning algorithm to data so it can learn relationships and create an accurate model.",
+      "example": "Feeding a system millions of labeled images of animals so it learns to distinguish between different species.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_U",
+      "letter": "U",
+      "term": "Unsupervised Learning",
+      "definition": "A method used for massive amounts of unlabeled data where algorithms must discover internal patterns or clusters without human intervention.",
+      "example": "An email spam filter identifying new types of unsolicited mail by clustering common features of \"junk\" messages without being told which ones are spam.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_V",
+      "letter": "V",
+      "term": "Veracity",
+      "definition": "One of the \"four Vs\" of big data, referring to the accuracy, context, and trustworthiness of the data sources being analyzed.",
+      "example": "A data scientist performing \"data cleansing\" to ensure that source data is internally consistent and hasn't been corrupted before training a model.",
+      "module": "L05",
+      "source": {
+        "author": "Hurwitz, J., & Kirsch, D.",
+        "year": "2018",
+        "title": "Machine learning for dummies, IBM limited edition",
+        "publisher": "John Wiley & Sons, Inc.",
+        "url": ""
+      }
+    },
+    {
+      "id": "L05_W",
+      "letter": "W",
+      "term": "Weather Simulation",
+      "definition": "A complex program with billions of parameters that models atmospheric data to predict rainfall or temperature but lacks cognitive \"thinking.\"",
+      "example": "A 175-billion parameter program calculating the likelihood of a storm without having a fundamental understanding of physical objects.",
+      "module": "L05",
+      "source": {
+        "author": "Simon, C.",
+        "year": "2020",
+        "title": "GPT-3 is impressive, but it isn't artificial general intelligence",
+        "publisher": "Digital Experience",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_A",
+      "letter": "A",
+      "term": "AdaFactor",
+      "definition": "A memory-efficient adaptive optimization algorithm used during the training of large-scale neural networks to minimize cross-entropy loss.",
+      "example": "Researchers utilized AdaFactor as the primary optimizer to train the massive 11-billion parameter T5 model efficiently across multi-rack ML supercomputers.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_B",
+      "letter": "B",
+      "term": "Beam Search",
+      "definition": "A decoding technique used in generative natural language tasks that explores multiple high-probability word sequences simultaneously to find the most likely overall output.",
+      "example": "In the WMT translation and CNN/Daily Mail summarization tasks, T5 employed beam search with a width of 4 to produce more coherent and fluent sentences compared to simple greedy decoding.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_C",
+      "letter": "C",
+      "term": "Colossal Clean Crawled Corpus (C4)",
+      "definition": "A massive, 750 GB dataset of clean and natural English text scraped from the web (Common Crawl) and filtered using heuristic cleaning methods.",
+      "example": "To ensure the model learned from \"real\" language rather than website menus or error messages, researchers used the C4 dataset to pre-train T5 on nearly a trillion tokens.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_D",
+      "letter": "D",
+      "term": "Denoising Objective",
+      "definition": "An unsupervised pre-training approach where a model is trained to reconstruct missing or corrupted spans of text within a sequence.",
+      "example": "A model is fed the input \"Thank you <X> me to your party\" and must learn to predict the target sequence \"<X> for inviting\" to understand linguistic context.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_E",
+      "letter": "E",
+      "term": "Encoder-Decoder Architecture",
+      "definition": "A standard Transformer structure where one layer stack (the encoder) processes the input sequence and a second stack (the decoder) autoregressively produces the output sequence.",
+      "example": "The T5 framework uses this architecture to handle both generative tasks like translation and classification tasks by generating target labels as literal text.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_F",
+      "letter": "F",
+      "term": "Fine-Tuning",
+      "definition": "The second stage of the transfer learning process where a model that was pre-trained on a data-rich task is further trained on a specific, often data-scarce, downstream task.",
+      "example": "After pre-training on general English, T5 was fine-tuned on the SQuAD dataset to master the specific skill of extracting answers from paragraphs.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_G",
+      "letter": "G",
+      "term": "GLUE (General Language Understanding Evaluation)",
+      "definition": "A diverse collection of English-based text classification tasks, such as sentiment analysis and natural language inference, used to benchmark an AI's general language understanding abilities.",
+      "example": "Researchers evaluate how well a model can judge \"sentence acceptability\" or \"sentence similarity\" by observing its average GLUE score across nine different sub-tasks.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_H",
+      "letter": "H",
+      "term": "Hyperparameters",
+      "definition": "The settings or configurations that control the learning process itself, such as learning rates, dropout probabilities, or the specific text prefixes used to identify a task.",
+      "example": "In T5, the text prefix (e.g., \"translate English to German:\") is a hyperparameter that directs the model to perform a specific translation task without changing its underlying architecture.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_I",
+      "letter": "I",
+      "term": "Inverse Square Root Schedule",
+      "definition": "A learning rate schedule used during pre-training that keeps the learning rate constant for a \"warm-up\" period before decaying it exponentially over time.",
+      "example": "The T5 models used an inverse square root schedule to maintain a 0.01 learning rate for the first 10,000 steps to ensure stable early learning before gradually slowing the rate.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_L",
+      "letter": "L",
+      "term": "Layer Normalization",
+      "definition": "A standardization technique applied to the inputs of Transformer subcomponents to rescale activations and improve training stability.",
+      "example": "T5 utilizes a simplified version of layer normalization where activations are only rescaled, omitting the additive bias to streamline computation during massive-scale training.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_M",
+      "letter": "M",
+      "term": "Multi-Task Learning",
+      "definition": "A training strategy where an AI model is trained simultaneously on a variety of different tasks in a single training run, using the same set of parameters.",
+      "example": "T5 was tested using multi-task pre-training, where the model learned to summarize, translate, and classify text all at once before being fine-tuned for specialized performance.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_N",
+      "letter": "N",
+      "term": "Natural Language Processing (NLP)",
+      "definition": "A branch of machine learning focused on enabling models to \"understand\" and process human text, ranging from basic word vectors to high-level reasoning.",
+      "example": "Advanced NLP allows a model to understand that \"a tuba is too large to fit in most backpacks,\" demonstrating a grasp of world knowledge beyond simple word definitions.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_P",
+      "letter": "P",
+      "term": "Pre-Training",
+      "definition": "The initial phase of training a neural network on large unlabeled datasets to develop general language abilities that can later be transferred to downstream tasks.",
+      "example": "T5 underwent pre-training on over 1 trillion tokens of web text to develop a foundation of \"general-purpose knowledge\" about spelling, grammar, and world facts.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_Q",
+      "letter": "Q",
+      "term": "Question Answering",
+      "definition": "A common NLP task where a model is provided with a context passage and a specific question and is tasked with generating the correct answer.",
+      "example": "On the SQuAD benchmark, T5 was fed a context paragraph about Genghis Khan and successfully generated the answer to \"Where did Jebe die?\" token-by-token.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_R",
+      "letter": "R",
+      "term": "Relative Position Embeddings",
+      "definition": "A positioning scheme in Transformers that tells the model how far apart words are from each other (distance) rather than identifying their absolute position in a sentence.",
+      "example": "T5 uses 32 learned relative position embeddings to help its self-attention mechanism understand word relationships regardless of the length of the input sequence.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_S",
+      "letter": "S",
+      "term": "SentencePiece",
+      "definition": "A language-independent subword tokenizer used to break text into a fixed set of wordpieces or \"tokens\" that the neural network can process.",
+      "example": "T5 used SentencePiece to encode a vocabulary of 32,000 tokens covering English, German, French, and Romanian simultaneously.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_T",
+      "letter": "T",
+      "term": "T5 (Text-to-Text Transfer Transformer)",
+      "definition": "A unified AI framework that treats every text processing problem as a \"text-to-text\" task, where the model always takes text as input and produces new text as output.",
+      "example": "T5 can perform machine translation, classification, and summarization using the exact same architecture and hyperparameters, simply by changing the text prefix in the input.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_U",
+      "letter": "U",
+      "term": "Unlabeled Data",
+      "definition": "Raw text data extracted from sources like the internet that does not have human-assigned labels, making it ideal for unsupervised pre-training.",
+      "example": "Projects like Common Crawl provide about 20TB of text monthly, which serves as a nearly inexhaustible source of unlabeled data for training large-scale neural networks.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_V",
+      "letter": "V",
+      "term": "Vocabulary",
+      "definition": "The predetermined, fixed set of wordpieces or tokens that an AI model is capable of recognizing and generating.",
+      "example": "T5's vocabulary was trained on a mixture of 10 parts English with 1 part each of German, French, and Romanian to ensure it could process all four languages fluently.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
+    },
+    {
+      "id": "L06_W",
+      "letter": "W",
+      "term": "WordPiece Tokens",
+      "definition": "A type of subword tokenization where words are broken into smaller chunks to handle complex language with a limited vocabulary.",
+      "example": "The word \"jumping\" might be encoded into two separate WordPiece tokens, \"jump\" and \"##ing,\" to allow the model to reuse the suffix \"##ing\" for other verbs.",
+      "module": "L06",
+      "source": {
+        "author": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. J.",
+        "year": "2020",
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "publisher": "Journal of Machine Learning Research, 21(140), 1-67",
+        "url": ""
+      }
     }
   ]
 }
